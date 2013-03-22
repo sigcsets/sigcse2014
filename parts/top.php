@@ -15,9 +15,9 @@ $abstractCharLimit = "800 characters";
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="/sigcse2014/css/bootstrap.css" rel="stylesheet">
-    <link href="/sigcse2014/css/bootstrap-example.css" rel="stylesheet">
-    <link href="/sigcse2014/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap-example.css" rel="stylesheet">
+    <link href="/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -42,7 +42,7 @@ $abstractCharLimit = "800 characters";
 	              if ($nav_menu == "home")
 	                $clazz = "active";
 	            ?>
-                <li class="<?php echo $clazz ?>"><a href="/sigcse2014/">Home</a></li>
+                <li class="<?php echo $clazz ?>"><a href="/">Home</a></li>
               </ul>
             </div>
           </div>

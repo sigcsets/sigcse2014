@@ -7,7 +7,7 @@
 </div> <!-- /container -->
 
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/sigcse2014/js/jquery.js"></script>
-<script src="/sigcse2014/js/bootstrap.min.js"></script>
+<script src="/js/jquery.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 </body>
 </html>
