@@ -140,8 +140,9 @@
     <p><strong>Webmaster</strong><br/>
     Kimberly Voll<br/>
     Centre for Digital Media<br/>
-    <script>write_email("kvoll", "cs.ubc.ca");</script><br/>
-    &nbsp;<br/>
+    <script>write_email("kimberly_voll", "thecdm.ca");</script></p>
+
+    <p><strong>Publicity/Social Media</strong><br/>
     Jamie Spacco<br/>
     Knox College<br/>
     <script>write_email("jspacco", "knox.edu");</script></p>
