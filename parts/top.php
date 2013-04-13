@@ -3,9 +3,9 @@
 // Global configuration
 $submissionReady = false;
 $abstractCharLimit = "800 characters";
-$local = false;
+$prefix = "";
 if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
-  $local = true;
+  $prefix = "/sigcse2014";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,11 +17,11 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="<?php if ($local) echo "/sigcse2014" ?>/css/bootstrap.css" rel="stylesheet">
-    <link href="<?php if ($local) echo "/sigcse2014" ?>/css/bootstrap-example.css" rel="stylesheet">
-    <link href="<?php if ($local) echo "/sigcse2014" ?>/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?php echo $prefix ?>/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo $prefix ?>/css/bootstrap-example.css" rel="stylesheet">
+    <link href="<?php echo $prefix ?>/css/bootstrap-responsive.css" rel="stylesheet">
 
-    <script src="<?php if ($local) echo "/sigcse2014" ?>/js/site.js"></script>
+    <script src="<?php echo $prefix ?>/js/site.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="../assets/js/html5shiv.js"></script>
@@ -38,7 +38,7 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
     <div class="container">
 
       <div class="masthead">
-        <h3 class="muted">SIGCSE 2014 - March 5–8, 2014, Atlanta, GA  &nbsp;</h3>         
+        <h3 class="muted"><img src="<?php echo $prefix ?>/img/sigcse_logo_small.png" /> SIGCSE 2014 - March 5–8, 2014, Atlanta, GA  &nbsp;</h3>         
 
         <div class="navbar">
           <div class="navbar-inner">
@@ -49,7 +49,7 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 	              if ($nav_menu == "home")
 	                $clazz = "active";
 	            ?>
-                <li class="<?php echo $clazz ?>"><a href="<?php if ($local) echo "/sigcse2014" ?>/"><i class="icon-home"></i> Home</a></li>
+                <li class="<?php echo $clazz ?>"><a href="<?php echo $prefix  ?>/"><i class="icon-home"></i> Home</a></li>
 				<?php
 	              $clazz = "";
 	              if ($nav_menu == "authors")
@@ -58,7 +58,7 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
                 <li class="dropdown <?php echo $clazz ?>">
 	              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Authors <b class="caret"></b></a>
 	              <ul class="dropdown-menu">
-		            <li><a href="<?php if ($local) echo "/sigcse2014" ?>/authors/index.php">Call For Participation</a></li>
+		            <li><a href="<?php echo $prefix ?>/authors/index.php">Call For Participation</a></li>
 		          </ul>
 	            </li>
               </ul>

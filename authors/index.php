@@ -13,7 +13,7 @@
 <div class="row-fluid">
  <div class="span12">
    <div class="alert alert-info" style="text-align: center;">
-     <a href="<?php if ($local) echo "/sigcse2014" ?>/downloads/sigcse2014_cfp.pdf">Download the Call for Participation in PDF format</a> |
+     <a href="<?php echo $prefix ?>/downloads/sigcse2014_cfp.pdf">Download the Call for Participation in PDF format</a> |
      <a href="http://docs.google.com/viewer?url=http%3A%2F%2Fsigcse2014.sigcse.org%2Fdownloads%2Fsigcse2014_cfp.pdf">View Online</a>
    </div>
  </div>

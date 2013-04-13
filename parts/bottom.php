@@ -7,8 +7,8 @@
 </div> <!-- /container -->
 
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="<?php if ($local) echo "/sigcse2014" ?>/js/jquery.js"></script>
-<script src="<?php if ($local) echo "/sigcse2014" ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo $prefix ?>/js/jquery.js"></script>
+<script src="<?php echo $prefix ?>/js/bootstrap.min.js"></script>
 
 <!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">
