@@ -1,5 +1,6 @@
 <hr>
   <div class="footer">
+	<g:plusone></g:plusone>
     <p>&copy; SIGCSE 2013</p>
     <p>Follow the source at <a href="https://github.com/sigcsets/sigcse2014">https://github.com/sigcsets/sigcse2014</a></p>
   </div>
