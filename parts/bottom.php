@@ -1,6 +1,5 @@
 <hr>
   <div class="footer">
-	<g:plusone></g:plusone>
     <p>&copy; SIGCSE 2013</p>
     <p>Follow the source at <a href="https://github.com/sigcsets/sigcse2014">https://github.com/sigcsets/sigcse2014</a></p>
   </div>
@@ -11,6 +10,15 @@
 <script src="<?php if ($local) echo "/sigcse2014" ?>/js/jquery.js"></script>
 <script src="<?php if ($local) echo "/sigcse2014" ?>/js/bootstrap.min.js"></script>
 
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,6 +28,16 @@
   ga('create', 'UA-40114524-1', 'sigcse.org');
   ga('send', 'pageview');
 
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 </script>
 </body>
 </html>
