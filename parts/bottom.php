@@ -9,6 +9,7 @@
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo $prefix ?>/js/jquery.js"></script>
 <script src="<?php echo $prefix ?>/js/bootstrap.min.js"></script>
+<script src="<?php echo $prefix ?>/js/lightbox.js"></script>
 
 <!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">

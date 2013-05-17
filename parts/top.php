@@ -20,6 +20,7 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
     <link href="<?php echo $prefix ?>/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo $prefix ?>/css/bootstrap-example.css" rel="stylesheet">
     <link href="<?php echo $prefix ?>/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="<?php echo $prefix ?>/css/lightbox.css" rel="stylesheet" />
 
     <script src="<?php echo $prefix ?>/js/site.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -61,6 +62,13 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 		            <li><a href="<?php echo $prefix ?>/authors/index.php">Call For Participation</a></li>
 		          </ul>
 	            </li>
+
+                <?php
+                  $clazz = "";
+                  if ($nav_menu == "exhibitors")
+                    $clazz = "active";
+                ?>
+                <li class="<?php echo $clazz ?>"><a href="<?php echo $prefix  ?>/exhibitors/"> Exhibitors/Supporters</a></li>
               </ul>
             </div>
           </div>
