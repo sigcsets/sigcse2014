@@ -25,10 +25,31 @@
 	<p><ul><li>The SIGCSE 2014 <a href="<?php echo $prefix ?>/downloads/sigcse2014_ep.pdf">Invitation to Exhibit / Conference Support Opportunities document</a> (<a href="http://docs.google.com/viewer?url=http%3A%2F%2Fsigcse2014.sigcse.org%2Fdownloads%2Fsigcse2014_ep.pdf">View Online</a>) provides details on how your organization can connect with our community.</li>
    <li>Here are two views of the SIGCSE 2008 Exhibit Hall. The 2013 conference is in a different location, but we hope that these views will give you a sense of what the 2013 exhibition space will look like.</ii></ul></p>
   </div>
-  <div class="span12" style="text-align: center;">
-    <a href="<?php echo $prefix ?>/img/2008Hall01.jpg" rel="lightbox" title="my caption"><img src="<?php echo $prefix ?>/img/2008Hall01_thumb.jpg" /></a>
-    <a href="<?php echo $prefix ?>/img/2008Hall02.jpg" rel="lightbox" title="my caption"><img src="<?php echo $prefix ?>/img/2008Hall02_thumb.jpg" /></a>
 
+<div class="span12" style="text-align: center;">
+ <ul class="thumbnails">
+  <li>
+   <a data-toggle="lightbox" href="#lightbox1" class="thumbnail">
+	<img src="<?php echo $prefix ?>/img/2008Hall01_thumb.jpg" alt="2008 Exhibit Hall">
+   </a>
+  </li>
+  <li>
+   <a data-toggle="lightbox" href="#lightbox2" class="thumbnail">
+	<img src="<?php echo $prefix ?>/img/2008Hall02_thumb.jpg" alt="2008 Exhibit Hall 2">
+   </a>
+  </li>
+ </ul>
+ <div id="lightbox1" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class='lightbox-content'>
+	  <img src="<?php echo $prefix ?>/img/2008Hall01.jpg">
+	  <div class="lightbox-caption"><p>SIGCSE 2008 Exhibit Hall view 1</p></div>
+	</div>
+ </div>
+ <div id="lightbox2" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class='lightbox-content'>
+	  <img src="<?php echo $prefix ?>/img/2008Hall02.jpg">
+	  <div class="lightbox-caption"><p>SIGCSE 2008 Exhibit Hall view 2</p></div>
+	</div>
   </div>
 </div>
 
