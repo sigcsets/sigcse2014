@@ -1,15 +1,15 @@
-<hr>
-  <div class="footer">
+<hr/>
+  <footer>
     <p>&copy; SIGCSE 2013</p>
     <p>Follow the source at <a href="https://github.com/sigcsets/sigcse2014">https://github.com/sigcsets/sigcse2014</a></p>
-  </div>
-
-</div> <!-- /container -->
+  </footer>
+ </div>
 
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="<?php echo $prefix ?>/js/jquery.js"></script>
 <script src="<?php echo $prefix ?>/js/bootstrap.min.js"></script>
 <script src="<?php echo $prefix ?>/js/bootstrap-lightbox.js"></script>
+<script src="<?php echo $prefix ?>/js/spy.js"></script>
 
 <!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">
