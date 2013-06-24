@@ -1,12 +1,18 @@
 <?php
- $title = "Exhibitors and Supporters [SIGCSE 2014]";
- $nav_menu = "exhibitors";
+ $title = "Guide for Paper Authors [SIGCSE 2014]";
+ $nav_menu = "authors";
  include("../parts/top.php");
+?>
+
+<li><a href="#interested"><i class="icon-chevron-right"></i> Are You Interested in Becoming a Supporter and/or Exhibitor?</a></li>
+
+<?php 
+  include("../parts/middle.php"); 
 ?>
 
 <div class="row-fluid">
  <div class="span12" style="text-align: center;">
-   <h1>SIGCSE 2014 - Exhibitors and Supporters</h1>
+   <h1 class="section">SIGCSE 2014 - Exhibitors and Supporters</h1>
  </div>
 </div>
 <div class="row-fluid">
@@ -17,13 +23,13 @@
 
 <div class="row-fluid">
  <div class="span12" style="text-align: left;">
-   <h2>Are You Interested in Becoming a Supporter and/or Exhibitor?</h2>
+   <h2 id="interested" class="section">Are You Interested in Becoming a Supporter and/or Exhibitor?</h2>
  </div>
 </div>
 <div class="row-fluid">
   <div class="span12">
 	<p><ul><li>The SIGCSE 2014 <a href="<?php echo $prefix ?>/downloads/sigcse2014_ep.pdf">Invitation to Exhibit / Conference Support Opportunities document</a> (<a href="http://docs.google.com/viewer?url=http%3A%2F%2Fsigcse2014.sigcse.org%2Fdownloads%2Fsigcse2014_ep.pdf">View Online</a>) provides details on how your organization can connect with our community.</li>
-   <li>Here are two views of the SIGCSE 2008 Exhibit Hall. The 2013 conference is in a different location, but we hope that these views will give you a sense of what the 2013 exhibition space will look like.</ii></ul></p>
+   <li>Here are two views of the SIGCSE 2008 Exhibit Hall. The 2013 conference is in a different location, but we hope that these views will give you a sense of what the 2014 exhibition space will look like.</ii></ul></p>
   </div>
 
 <div class="span12" style="text-align: center;">
