@@ -3,6 +3,8 @@
 // Global configuration
 $submissionReady = false;
 $submissionURL = "http://submiturl";
+$submissionLink = "<a href=\"http://submiturl\">online submission form</a>";
+$verificationLink = "<a href=\"http://submiturl\">author verification page</a>";
 $abstractCharLimit = "800 characters";
 
 $mainSubmissionDeadline = "Friday, September 6, 2013";
@@ -10,9 +12,13 @@ $mainNotificationDeadline = "TBD";
 $mainUpdatesDeadline = "TBD";
 $mainCameraReadyDeadline = "TBD";
 
+$workshopUrlDeadline = "TBD";
+
 $bofAndPosterDeadline = "Monday, October 28, 2013";
 $bofAndPosterNotificationDeadline = "TBD";
 $bofAndPosterUpdatesDeadline = "TBD";
+
+$conferenceYear = "2014";
 
 $prefix = "";
 if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
@@ -43,7 +49,7 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 	 <link href="https://plus.google.com/105068073150868262530/" rel="publisher" />
   </head>
 
-  <body data-spy="scroll" data-target=".sidebar-nav" data-offset="60">
+  <body data-spy="scroll" data-target=".sidebar-nav" data-offset="70">
 
     <div class="navbar navbar-inverse navbar-fixed-top navbar-border">
       <div class="navbar-inner">
@@ -72,7 +78,13 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 				<ul class="dropdown-menu">
 				  <li><a href="<?php echo $prefix ?>/authors/index.php">Call For Participation</a></li>
 				  <li><a href="<?php echo $prefix ?>/authors/papers.php">Papers</a></li>
+                  <li><a href="<?php echo $prefix ?>/authors/panels.php">Panels</a></li>
+                  <li><a href="<?php echo $prefix ?>/authors/special_sessions.php">Special Sessions</a></li>
+                  <li><a href="<?php echo $prefix ?>/authors/workshops.php">Workshops</a></li>
+                  <li><a href="<?php echo $prefix ?>/authors/bof.php">Birds of a Feather Sessions</a></li>
 				  <li class="divider"></li>
+				  <li><a href="<?php echo $prefix ?>/authors/format.php">Formatting Guidelines</a></li>
+				  <li><a href="<?php echo $prefix ?>/authors/creating_pdf.php">Creating PDFs</a></li>
 				</ul>
               </li>
               <?php

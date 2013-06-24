@@ -1,53 +1,31 @@
 <?php
- $title = "SIGCSE 2012 - Formatting Instructions";
- $onload = "pageLoad('authors', 'formatting');";
+ $title = "Formatting Guidelines [SIGCSE 2014]";
+ $nav_menu = "authors";
  include("../parts/top.php");
 ?>
-<h1>Publication Guidelines for<br/>Camera-ready Papers, Panels, and Special Sessions</h1>
-<p>All papers, panels, and special sessions submissions must follow these formatting instructions. Templates for submissions can be found at the ACM SIG Proceedings website. (NOTE to LaTeX users: you should use option #2 (tighter alternate style) when formatting your document.)</p>
-<div class="Alert">Failure to follow these instructions may jeopardize the inclusion of your paper in the proceedings.</div>
-<table width="99%">
- <tr>
-  <td width="50%" align="left" valign="top">
-  <h3>Contents:</h3>
-  <ul>
-    <li><a href="#requirements">Formatting Requirements</a></li>
-    <li><a href="#pages">Page Limits</a></li>
-    <li><a href="#copyright">Copyright/Permission Forms</a></li>
-    <li><a href="#templates">Templates and Samples</a></li>
-    <li><a href="#questions">Questions?</a></li>
-  </ul>
-  </td>
-  <td width="50%" align="center" valign="top">
-    <div class="GoodMessage">
-      <h2><a name="kind">Impotant Dates for Paper Authors</a></h2>
-	      <table>
-	       <tr>
-	        <td align="left" valign="top">Submission Deadline:</td><td align="left" nowrap="nowrap">Friday, September 2, 2011</td>
-	       </tr>
-	       <tr><td align="right" colspan="2">
-	@11:59 p.m. Hawaii-Aleutian Standard Time (HST)</td>
-	       </tr>
-	       <tr>
-	  	    <td align="left">Author Notification:</td><td align="left" nowrap="nowrap">Monday, October 17, 2011</td>
-	       </tr>
-	       <tr>
-	 	    <td align="left">Updates to Paper Title &amp; Authors:</td><td align="left" nowrap="nowrap">Monday, October 31, 2011</td>
-	       </tr>
-	       <tr>
-	  	    <td align="left">Camera-Ready Copy:</td><td align="left" nowrap="nowrap">December 6, 2011</td>
-	       </tr>
-	      </table>
-	    </div>
-    </div>
-  </td>              
- </tr>
-</table>    
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="requirements">Formatting Requirements for all<br/>Paper, Panel, and Special Session Submissions</a></h2>
-</div></div> 
+<li><a href="#requirements"><i class="icon-chevron-right"></i> Formatting Requirements</a></li>
+<li><a href="#pages"><i class="icon-chevron-right"></i> Page Limits</a></li>
+<li><a href="#copyright"><i class="icon-chevron-right"></i> Copyright/Permission Forms</a></li>
+<li><a href="#templates"><i class="icon-chevron-right"></i> Templates and Samples</a></li>
+<li><a href="#questions"><i class="icon-chevron-right"></i> Questions?</a></li>
 
+<?php 
+  include("../parts/middle.php"); 
+?>
+
+<div class="row-fluid">
+ <div class="span12" style="text-align: center;">
+   <h1 class="section">Publication Guidelines for<br/>Camera-ready Papers, Panels, and Special Sessions</h1>
+ </div>
+</div>
+
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="requirements"><h2 class="section">Formatting Requirements for all<br/>Paper, Panel, and Special Session Submissions</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>The requirements listed in this section apply to all papers, panels, and special sessions:
 <ul>
 <li><b>Title:</b> The title should be centered, Arial or Helvetica, bold, 18 point, and Initial Letters Capitalized Like This.</li>
@@ -92,11 +70,15 @@
 	</code><br/>&nbsp;<br/>
 	<code>
 	Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www.poker-edge.com/stats.php	
-	</code>
+  </code>
+</p>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="pages">Page Limits</a></h2>
-</div></div> 
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="pages"><h2 class="section">Page Limits</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>All submission must adhere to the following page limits:<br/>
  <ul>
   <li><b>Paper:</b>	6 (Increased from 5 starting with SIGCSE 2011)</li>
@@ -104,32 +86,44 @@
   <li><b>Special Session:</b> 2</li>
  </ul>
 </p>
+ </div>
+</div>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="copyright">Copyright/Permission Forms</a></h2>
-</div></div> 
-
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="copyright"><h2 class="section">Copyright/Permission Forms</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>All authors of accepted papers will need to submit a signed copyright form with their FINAL document.</p>
 <p>All authors of accepted panels or special sessions will need to submit a signed permission form with the FINAL document.</p>
 <p>Information on these forms will be sent to authors after notification of acceptance by the program committee.</p>
+ </div>
+</div>
 
-
-<div class="SectionHeader"><div class="Full">
-<h2><a name="templates">Templates and Samples</a></h2>
-</div></div> 
-
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="templates"><h2 class="section">Templates and Samples</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 Templates for submissions can be found at the <a href="http://www.acm.org/sigs/publications/proceedings-templates">ACM SIG Proceedings website</a>. LaTeX users should use option #2 (tighter alternate style) when formatting your document.
+ </div>
+</div>
 
-
-<div class="SectionHeader"><div class="Full">
-<h2><a name="questions">Questions?</a></h2>
-</div></div> 
-    
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="questions"><h2 class="section">Questions?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">    
 <p><b>Contact the Publications chair:</b><br/>
 &nbsp;<br />
-Brad Miller<br/>
-Luther College<br/>
-<script>write_email("sigcse12-publications", "cs.holycross.edu");</script></p>
+Dennis J. Bouvier<br/>
+Southern Illinois University<br/>
+<script>write_email("djb", "acm.org");</script></p>
+ </div>
+</div>
 
 <?php
  $updated = filemtime( $_SERVER["SCRIPT_FILENAME"] );

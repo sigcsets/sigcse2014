@@ -32,19 +32,19 @@
       <h2 class="section">Important Dates for Paper Authors</h2>
       <table class="table table-striped">
        <tr>
-        <td align="left" valign="top">Submission Deadline:</td><td align="left" nowrap="nowrap">Friday, September 2, 2011</td>
+        <td align="left" valign="top">Submission Deadline:</td><td align="left" nowrap="nowrap"><? echo $mainSubmissionDeadline; ?></td>
        </tr>
        <tr><td align="right" colspan="2">
 @11:59 p.m. Hawaii-Aleutian Standard Time (HST)</td>
        </tr>
        <tr>
-  	    <td align="left">Author Notification:</td><td align="left" nowrap="nowrap">Monday, October 17, 2011</td>
+  	    <td align="left">Author Notification:</td><td align="left" nowrap="nowrap"><? echo $mainNotificationDeadline; ?></td>
        </tr>
        <tr>
- 	    <td align="left">Updates to Paper Title &amp; Authors:</td><td align="left" nowrap="nowrap">Monday, October 31, 2011</td>
+ 	    <td align="left">Updates to Paper Title &amp; Authors:</td><td align="left" nowrap="nowrap"><? echo $mainUpdatesDeadline; ?></td>
        </tr>
        <tr>
-  	    <td align="left">Camera-Ready Copy:</td><td align="left" nowrap="nowrap">December 6 2011</td>
+  	    <td align="left">Camera-Ready Copy:</td><td align="left" nowrap="nowrap"><? echo $mainCameraReadyDeadline; ?></td>
        </tr>
       </table>
  </div>
@@ -146,7 +146,7 @@
 
 <p>Descriptions of each of these paper categories can be found at the 
 <?php if ($submissionReady) {
- echo '<a href="http://db.grinnell.edu/sigcse/sigcse2012/subjectDisplay.asp">online topic display site</a>';
+ echo $submissionLink;
 } else {
  echo "<em>online topic display site (coming soon)</em>";
 } 
@@ -163,7 +163,7 @@
  <div class="span12">
 <p>Authors must submit <b>two versions</b> of their paper: a "publication" version that includes author/institution information, and an anonymized version. The goal of the anonymized version is to, as much as possible, allow the author(s) of the paper an unbiased review. The anonymized version should have ALL references to the authors removed (including author's names and affiliation plus identifying information within the body of the paper such as websites or related publications).  Self-citations need not be removed if they are worded  so that the reviewer doesn't know if the writer is citing himself/herself. That is, instead of writing "We reported on our first experiment in 2007 in a previous paper [1]", the writer might write "In 2007, an initial experiment was done in this area as reported in [1]."</p>
             
-<p>The publication version is available for use by the Program Committee. Both versions are limited to a <strong>maximum of 6 pages</strong> and must adhere to the <a href="format.php">SIGCSE 2012 Format Instructions</a>. <a href="http://www.acm.org/sigs/pubs/proceed/template.html">Templates are available in Word, WordPerfect, and LaTeX</a>.</p>
+<p>The publication version is available for use by the Program Committee. Both versions are limited to a <strong>maximum of 6 pages</strong> and must adhere to the <a href="format.php">SIGCSE <? echo $conferenceYear; ?> Format Instructions</a>. <a href="http://www.acm.org/sigs/pubs/proceed/template.html">Templates are available in Word, WordPerfect, and LaTeX</a>.</p>
 <p>If your paper is accepted you will have a chance to modify your publication version before it is published.</p>
 <p>Electronic submission of papers is required.</p>
  </div>
@@ -180,7 +180,7 @@
  <li> Convert your paper into Adobe PDF format. Refer to our <a href="creating_pdf.php">Creating Adobe PDF Documents page</a> for assistance.</li>
  <li> Submit both versions using the
 <?php if ($submissionReady) {
- echo '<a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">online paper submission form</a>';
+ echo $submissionLink;
 } else {
  echo "<em>online paper submission form (coming soon)</em>";
 } 
@@ -189,14 +189,14 @@
  <li>Make note of the paper ID number and password assigned to your submission. You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages so you may need to check your spam trap for the confirmation and later, acceptance or rejection notification.</li>
  <li> After receiving confirmation, go to the 
 <?php if ($submissionReady) {
- echo '<a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">author verification form</a>';
+ echo $submissionLink;
 } else {
  echo "<em>author verification form (coming soon)</em>";
 }
-?> to review your submission for accuracy.  Send e-mail to <script>write_email("sigcse12-program", "cs.holycross.edu");</script> (Tracy Camp and Paul Tymann) if there are any problems.</li>
+?> to review your submission for accuracy.  Send e-mail to <script>write_email("sigcse2014-program", "ggc.edu");</script> (Adrienne Decker and Kurt Eiselt) if there are any problems.</li>
 </ol>
 
-<p><strong><i>Deadline:</i></strong> All electronic submissions must be <strong>received</strong> by <strong class="warning">Friday, September 2, 2011</strong> at 23:59 (11:59 p.m.) Hawaii-Aleutian Standard Time (HST).</p>
+<p><strong><i>Deadline:</i></strong> All electronic submissions must be <strong>received</strong> by <span class="label label-important"><? echo $mainSubmissionDeadline; ?></span> at 23:59 (11:59 p.m.) Hawaii-Aleutian Standard Time (HST).</p>
  </div>
 </div>
 
@@ -211,10 +211,10 @@
  <li>Paper presentations are <strong>25 minutes</strong> in length. Five minutes of that time should be reserved for answering questions from the audience.</li>
  <li>Plan to attend the <strong>speakers' breakfast</strong> on the morning of your presentation to meet your session chair and to discuss the transitions between the presentations in your session.</li>
  <li>The conference supplies a projector but not a laptop. You will need to <strong>bring a laptop or arrange to use one from another attendee</strong>. You may want to contact your session chair or other speakers in your session to arrange sharing. (If neither you, the other session speakers, nor the session chair have a laptop,
-send an email to <script>write_email("sigcse12-program", "cs.holycross.edu");</script>.)</li>
+send an email to <script>write_email("sigcse2014-program", "ggc.edu");</script>.)</li>
  <li>Bring a <strong>backup copy</strong> of your presentation on a USB stick. Session chairs may request that presenters arrange to make all presentations from a single laptop.</li>
  <li>Wireless Internet access should be available during your presentation, but please be aware that there is always a potential for failure.</li>
- <li> Arrive at your room <strong>at least 10 minutes before</strong> the session is scheduled to begin.</li>
+ <li>Arrive at your room <strong>at least 10 minutes before</strong> the session is scheduled to begin.</li>
 </ul>
  </div>
 </div>
@@ -226,19 +226,16 @@ send an email to <script>write_email("sigcse12-program", "cs.holycross.edu");</s
 <div class="row-fluid">
  <div class="span12">
 
-<p>If you have questions about paper submissions, please contact SIGCSE 2012 Program Chairs:
+<p>If you have questions about paper submissions, please contact SIGCSE <? echo $conferenceYear; ?> Program Chairs:<br/>
 	Adrienne Decker<br/>
 	Rochester Institute of Technology<br/>
-	<script>write_email( "amdigm", "rit.edu" );</script><br/>
     &nbsp;<br/>
 	Kurt Eiselt<br/>
 	University of British Columbia<br/>
-	<script>write_email( "eiselt", "cs.ubc.ca" );</script>	
+	<script>write_email( "sigcse2014-program", "ggc.edu" );</script>	
  </div>
 </div>
 
 <?php
- $updated = filemtime( $_SERVER["SCRIPT_FILENAME"] );
- $mainPage = false;
  include("../parts/bottom.php");
 ?>        

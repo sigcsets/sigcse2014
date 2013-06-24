@@ -95,7 +95,8 @@
     <script>write_email("eiselt", "cs.ubc.ca");</script></p>
 
     <p><strong>Panels and Special Sessions</strong><br/>
-    Stephen Cooper Stanford University<br/>
+    Stephen Cooper<br/>
+    Stanford University<br/>
     <script>write_email("coopers", "stanford.edu");</script></p>
 
     <p><strong>Workshops</strong><br/>

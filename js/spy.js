@@ -1,5 +1,5 @@
 // For adjusting anchor links due to the fixed header nav.
-var offset = 59;
+var offset = 69;
 $('.bs-docs-sidenav li a').click(function(event) {
     event.preventDefault();
     $($(this).attr('href'))[0].scrollIntoView();

@@ -1,56 +1,59 @@
 <?php
- $title = "SIGCSE 2012 - Birds of a Feather (\"BOF\") Submission Guidelines";
- $onload = "pageLoad('authors', 'bof');";
+ $title = "Birds of a Feather Submission Guidelines [SIGCSE 2014]";
+ $nav_menu = "authors";
  include("../parts/top.php");
 ?>
-<h1>Birds of a Feather ("BOF") Submission Guidelines</h1>   
-<div class="Alert">By SIGCSE policy, the proposer and all discussion leaders are required to register for the conference and to be present for the BOF session.</div>          
-<div class="GoodMessage">Ready to submit? Read the guidelines below, then <a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">click here to start the submission process.</a></div>
-             
-<table width="99%">
- <tr>
-  <td width="30%" align="left" valign="top" nowrap="nowrap">
-  <h3>Contents:</h3>
-  <ul>
-    <li><a href="#what">What Is A Birds Of A Feather?</a></li>
-    <li><a href="#format">How Should The Proposal Be Formatted?</a></li>
-    <li><a href="#submit">How Do I Submit My Proposal?</a></li>
-  </ul>
-  
-  </td>
-  <td width="70%" align="center" valign="top">
-    <div class="GoodMessage">
-      <h2><a name="kind">Important Dates for BOF Submissions</a></h2>   
-      <table>
-       <tr>
-        <td align="left">Submission Deadline:</td><td align="left" nowrap="nowrap">October 24, 2011</td>
-       </tr>
-       <tr><td align="right" colspan="2">
-@11:59 p.m. Hawaii-Aleutian Standard Time (HST)</td>
-       </tr>
-       <tr>
-  	    <td align="left">Acceptance Notification:</td><td align="left" nowrap="nowrap">November 14, 2011</td>
-       </tr>
-       <tr>
- 	    <td align="left">Updates to BOF Title, Proposer &amp; Abstract:</td><td align="left">December 6, 2011</td>
-       </tr>
-      </table>
-    </div>
-  </td>              
- </tr>
-</table>
-           
-           
-<div class="SectionHeader"><div class="Full">
-<h2><a name="what">What Is A Birds Of A Feather?</a></h2>
-</div></div>  
-<p>Birds-of-a-Feather (BOF) Sessions provide an environment for colleagues with similar interests to meet for informal discussion.  Proposers of BOF sessions should serve as discussion leaders only.  BOFs are not intended to be presentations.</p>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="format">How Should The Proposal Be Formatted?</a></h2>
-</div></div>  
+<li><a href="#dates"><i class="icon-chevron-right"></i> Important Dates</a></li>
+<li><a href="#what"><i class="icon-chevron-right"></i> What Is A Birds Of A Feather?</a></li>
+<li><a href="#format"><i class="icon-chevron-right"></i> How Should The Proposal Be Formatted?</a></li>
+<li><a href="#submit"><i class="icon-chevron-right"></i> How Do I Submit My Proposal?</a></li>
+<li><a href="#questions"><i class="icon-chevron-right"></i> Questions?</a></li>
 
-<p>BOF proposals are to be provided in PDF format.  The full proposal contains an up to <?php echo $abstractCharLimit; ?> (including whitespace) BOF abstract. The abstract needs to appear in two places: in the PDF proposal and in a text box on the submission page (see below). The format for the BOF proposal is as follows.</p>
+<?php 
+  include("../parts/middle.php"); 
+?>
+
+<div class="row-fluid">
+ <div class="span12" style="text-align: center;">
+  <h1 class="section">Birds of a Feather ("BOF") Submission Guidelines</h1>
+  <div class="alert alert-error">By SIGCSE policy, at least one author of each accepted paper is required to register, attend and present the paper.</div>
+  <?php
+   if ($submissionReady)
+    echo "<div class=\"alert alert-info\">Ready to submit? Read the guidelines below, then <a href=\"" . $submissionURL . "\">click here to start the submission process.</a></div>";
+   ?>
+ </div>
+</div>
+
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="dates">
+   <h2 class="section">Important Dates for BOF Submissions</a></h2>   
+    <table class="table table-striped">
+     <tr><td align="left">Submission Deadline:</td><td align="left" nowrap="nowrap"><? echo $bofAndPosterDeadline; ?></td></tr>
+     <tr><td align="right" colspan="2">@11:59 p.m. Hawaii-Aleutian Standard Time (HST)</td></tr>
+     <tr><td align="left">Acceptance Notification:</td><td align="left" nowrap="nowrap"><? echo $bofAndPosterNotificationDeadline; ?></td></tr>
+     <tr><td align="left">Updates to BOF Title, Proposer &amp; Abstract:</td><td align="left"><? echo $bofAndPosterUpdatesDeadline; ?></td></tr>
+    </table>
+ </div>
+</div>
+
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="what"><h2 class="section">What Is A Birds Of A Feather?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+<p>Birds-of-a-Feather (BOF) Sessions provide an environment for colleagues with similar interests to meet for informal discussion.  Proposers of BOF sessions should serve as discussion leaders only. BOFs are not intended to be presentations.</p>
+ </div>
+</div>
+
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="format"><h2 class="section">How Should The Proposal Be Formatted?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+<p>BOF proposals are to be provided in PDF format. The full proposal contains an up to <?php echo $abstractCharLimit; ?> (including whitespace) BOF abstract. The abstract needs to appear in two places: in the PDF proposal and in a text box on the submission page (see below). The format for the BOF proposal is as follows.</p>
 
 <ol>
  <li><strong>BOF Proposal Format and Contents (limited to 1 page)</strong>
@@ -72,18 +75,23 @@
 
 <p>Here is a sample BOF Proposal:</p>
 <ul>
- <li><a href="/sigcse2012/downloads/BOFSample.pdf" onclick="target='newwindow'">BOF Proposal Example (PDF)</a></li>
+ <li><a href="<?php echo $prefix ?>/downloads/BOFSample.pdf" onclick="target='newwindow'">BOF Proposal Example (PDF)</a></li>
 </ul>
+ </div>
+</div>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="submit">How Do I Submit My Proposal?</a></h2>
-</div></div> 
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="submit"><h2 class="section">How Do I Submit My Proposal?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <ol>
  <li>Write your proposal using the format specified above.</li>
  <li>Convert your proposal into Adobe PDF format.  Refer to our <a href="creating_pdf.php">Creating Adobe PDF Documents</a> page for assistance.</li>
  <li> Submit the PDF version of your proposal using the
 <?php if ($submissionReady) {	
-  echo '<a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">Birds of a Feather online submission form</a>';
+  echo $submissionLink;
 } else {
   echo "<em>Birds of a Feather online submission form (coming soon)</em>";
 } 
@@ -91,26 +99,29 @@
  <li> Make note of the BOF ID number and password assigned to your submission.  You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages so you may need to check your spam trap for the confirmation and later, acceptance or rejection notification.</li>
  <li> After receiving confirmation, go to the 
 <?php if ($submissionReady) {
- echo '<a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">author verification form</a>';
+ echo $$verificationLink;
 } else {
  echo "<em>author verification form (coming soon)</em>";
 } 
-?> to review your submission for accuracy. Send e-mail to Olaf Hall-Holt <script>write_email( "sigcse12-bofs", "cs.holycross.edu" );</script> if there are any problems.</li>
+?> to review your submission for accuracy. Send e-mail to Olaf Hall-Holt <script>write_email( "sigcse2014-bofs", "ggc.edu" );</script> if there are any problems.</li>
 </ol>
 
-<p><strong><i>Deadline:</i></strong> All electronic submissions must be <strong>received</strong> by <strong class="warning">October 24, 2011 @ 11:59 p.m. Hawaii-Aleutian Standard Time (HST)</strong>.</p>         
+<p><strong><i>Deadline:</i></strong> All electronic submissions must be <strong>received</strong> by <span class="label label-important"><? echo $bofAndPosterDeadline; ?></span> at 23:59 (11:59 p.m.) Hawaii-Aleutian Standard Time (HST).</p>
+ </div>
+</div>        
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="presentation">Questions</a></h2>
-</div></div>   
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="questions"><h2 class="section">Questions?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>If you have questions, please contact:<br />
-Olaf Hall-Holt<br/>
-St. Olaf College<br/>
-<script>write_email("sigcse12-bofs", "cs.holycross.edu");</script>
+	Marc Rubin<br/>
+    Colorado School of Mines<br/>
+    <script>write_email("mrubin", "mymail.mines.edu");</script>
 </p>
 
 <?php
- $updated = filemtime( $_SERVER["SCRIPT_FILENAME"] );
- $mainPage = false;
  include("../parts/bottom.php");
 ?>

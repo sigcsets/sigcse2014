@@ -1,59 +1,79 @@
 <?php
- $title = "SIGCSE 2012 - Workshop Submission Guidelines";
- $onload = "pageLoad('authors', 'workshops');";
+ $title = "Workshop Submission Guidelines [SIGCSE 2014]";
+ $nav_menu = "authors";
  include("../parts/top.php");
 ?>
-<h1>Workshop Submission Guidelines</h1>             
-<div class="Alert">By SIGCSE policy, all workshop presenters are required to register for the conference, and to attend and lead their workshops.</div> 
-<div class="GoodMessage">Ready to submit? Read the guidelines below, then <a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">click here to start the submission process.</a></div>
-             
-<table width="99%">
- <tr>
-  <td width="50%" align="left" valign="top">
-  <h3>Contents:</h3>
-  <ul>  
-    <li><a href="#what">What Is a Workshop?</a></li>
-    <li><a href="#labs">Hands-On Lab-Based Workshops</a></li>
-    <li><a href="#format">How Should The Proposal Be Formatted?</a></li>
-    <li><a href="#submit">How Do I Submit My Proposal?</a></li>
-  </ul>
-  </td>
-  <td width="50%" align="center" valign="top">
-    <div class="GoodMessage">
-      <h2><a name="kind">Important Dates for Workshops</a></h2>
-      <table>
-       <tr><td align="left">Submission Deadline:</td><td align="left" nowrap="nowrap">September 2, 2011</td></tr>
-       <tr><td align="right" colspan="2">@11:59 p.m. Hawaii-Aleutian Standard Time (HST)</td></tr>
-       <tr><td align="left">Presenter Notification:</td><td align="left">October 17, 2011</td></tr>
-       <tr><td align="left">Updates to Titles, Authors, &amp; Abstracts Due:</td><td align="left">October 31, 2011</td></tr>
-       <tr><td align="left">Software Distribution URLs (for Hands-On Labs) Due:</td><td align="left">January 30, 2012</td></tr>
-      </table>
-    </div>
-  </td>              
- </tr>
-</table>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="what">What Is a workshop?</a></h2>
-</div></div>          
-<p>Workshops provide an in-depth review of, or introduction to, a topic of interest, and should provide participants with materials and/or ideas that are immediately useful in the classroom. To this end, workshop presenters should provide participants with handouts outlining the workshop material. We plan to support a number of workshops involving <a href="#labs">hands-on computer use by participants</a>. All SIGCSE 2012 workshops will be half-day workshops (3 hours).</p>
+<li><a href="#dates"><i class="icon-chevron-right"></i> Important Dates</a></li>
+<li><a href="#what"><i class="icon-chevron-right"></i> What Is a Workshop?</a></li>
+<li><a href="#labs"><i class="icon-chevron-right"></i> Hands-On Lab-Based Workshops</a></li>
+<li><a href="#format"><i class="icon-chevron-right"></i> How Should The Proposal Be Formatted?</a></li>
+<li><a href="#submit"><i class="icon-chevron-right"></i> How Do I Submit My Proposal?</a></li>
+<li><a href="#questions"><i class="icon-chevron-right"></i> Questions?</a></li>
+
+<?php 
+  include("../parts/middle.php"); 
+?>
+
+<div class="row-fluid">
+ <div class="span12" style="text-align: center;">
+   <h1 class="section">Workshop Submission Guidelines</h1>
+ </div>
+</div>
+
+<div class="alert alert-error">By SIGCSE policy, at least one author of each accepted paper is required to register, attend and present the paper.</div>
+<?php
+ if ($submissionReady)
+   echo "<div class=\"alert alert-info\">Ready to submit? Read the guidelines below, then <a href=\"" . $submissionURL . "\">click here to start the submission process.</a></div>";
+?>
+
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="dates">
+  <h2 class="section">Important Dates for Workshops</h2>
+   <table class="table table-striped">
+     <tr><td align="left">Submission Deadline:</td><td align="left" nowrap="nowrap"><? echo $mainSubmissionDeadline; ?></td></tr>
+     <tr><td align="right" colspan="2">@11:59 p.m. Hawaii-Aleutian Standard Time (HST)</td></tr>
+     <tr><td align="left">Presenter Notification:</td><td align="left"><? echo $mainNotificationDeadline; ?></td></tr>
+     <tr><td align="left">Updates to Titles, Authors, &amp; Abstracts Due:</td><td align="left"><? echo $mainUpdatesDeadline; ?></td></tr>
+     <tr><td align="left">Software Distribution URLs (for Hands-On Labs) Due:</td><td align="left"><? echo $workshopUrlDeadline; ?></td></tr>
+   </table>
+ </div>
+</div>
+
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="what"><h2 class="section">What Is a Workshop?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">   
+<p>Workshops provide an in-depth review of, or introduction to, a topic of interest, and should provide participants with materials and/or ideas that are immediately useful in the classroom. To this end, workshop presenters should provide participants with handouts outlining the workshop material. We plan to support a number of workshops involving <a href="#labs">hands-on computer use by participants</a>. All SIGCSE <? echo $conferenceYear; ?> workshops will be half-day workshops (3 hours).</p>
 <p>Workshop Proposals undergo review but <strong>not</strong> blind review.  Proposals are evaluated for <strong>relevance, anticipated interest, quality, and availability of appropriate facilities</strong>. You may want to review the list of SIGCSE 2011 workshops (<a href="http://db.grinnell.edu/sigcse/sigcse2011/Program/viewAcceptedDayTime.asp?timeID=119002200">1-12</a>, <a href="http://db.grinnell.edu/sigcse/sigcse2011/Program/viewAcceptedDayTime.asp?timeID=319002200">13-25</a>, and <a href="http://db.grinnell.edu/sigcse/sigcse2011/Program/viewAcceptedDayTime.asp?timeID=415001800">26-35</a>) prior to submitting a proposal.</p>
 <p>SIGCSE will reimburse presenters for handouts (up to $5 per participant) and will provide one night free lodging per workshop (not per presenter) at the conference hotel.</p>
+ </div>
+</div>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="labs">Hands-On Lab-Based Workshops</a></h2>
-</div></div>
-<p><strong>All</strong> hands-on workshops at SIGCSE 2012 will use participants' laptop computers at the conference site. The Symposium Committee will help presenters distribute workshop software to participants prior to the Symposium, e.g., by providing attendee e-mail addresses for software distribution.  Distribution of software is the responsibility of the workshop leaders.  We recommend that the organizers of each hands-on workshop create their own web page (on their own server) with all necessary software and instructions for installation. To accommodate late registrations, we will collect these URLs and make them available to late registrants when they register on-site. We will also provide presenters with mailing lists containing the emails of current enrollees soon after the close of the early registration window.</p>
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="labs"><h2 class="section">Hands-On Lab-Based Workshops</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+<p><strong>All</strong> hands-on workshops at SIGCSE <? echo $conferenceYear; ?> will use participants' laptop computers at the conference site. The Symposium Committee will help presenters distribute workshop software to participants prior to the Symposium, e.g., by providing attendee e-mail addresses for software distribution.  Distribution of software is the responsibility of the workshop leaders.  We recommend that the organizers of each hands-on workshop create their own web page (on their own server) with all necessary software and instructions for installation. To accommodate late registrations, we will collect these URLs and make them available to late registrants when they register on-site. We will also provide presenters with mailing lists containing the emails of current enrollees soon after the close of the early registration window.</p>
 <p>Proposers of hands-on workshops should indicate which of the following formats they wish for their workshop:</p>
 <ul>
  <li><strong>Laptop Required</strong>. Participants should bring a laptop computer to participate in this workshop.</li>
  <li><strong>Laptop Recommended</strong>. It is recommended, but not required, that participants bring a laptop computer to this workshop.</li>
  <li><strong>Laptop Optional</strong>. It is not necessary for participants to bring laptops to this workshop.</li>
 </ul>
-    
-<div class="SectionHeader"><div class="Full">
-<h2><a name="format">How Should The Proposal Be Formatted?</a></h2>
-</div></div> 
+ </div>
+</div>
+
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="format"><h2 class="section">How Should The Proposal Be Formatted?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>Workshop proposals consist of <strong>two</strong> documents: the full workshop proposal and a workshop abstract. The full proposal is used for the review process only. The abstract is the description that appears on the Symposium web site and in the Symposium program and proceedings. The format of these documents should be as follows.</p>
 <ol>
  <li><strong>Full Workshop Proposal Format (limited to 3 pages, including the title page)</strong>
@@ -77,8 +97,8 @@
   </ul>
   <p style="font-size: 1.0em">Here are sample Full Workshop Proposals:</p>
   <ul>
-   <li><a href="/sigcse2012/downloads/workshopProposalsample.doc" onclick="target='newwindow'">Workshop Proposal Example (Word)</a></li>
-   <li><a href="/sigcse2012/downloads/workshopProposalsample.pdf" onclick="target='newwindow'">Workshop Proposal Example (PDF)</a></li>
+   <li><a href="<?php echo $prefix ?>/downloads/workshopProposalsample.doc" onclick="target='newwindow'">Workshop Proposal Example (Word)</a></li>
+   <li><a href="<?php echo $prefix ?>/downloads/workshopProposalsample.pdf" onclick="target='newwindow'">Workshop Proposal Example (PDF)</a></li>
   </ul>
   </li><br/>
   <li><strong>Workshop Proposal Abstract (Limited to <?php echo $abstractCharLimit; ?>, including whitespace)</strong>
@@ -87,44 +107,54 @@
   <p>The workshop proposal abstract must be submitted in plain text. The abstract for an accepted proposal may contain a URL with more information for participants. (Abstracts of accepted workshops can be edited in response to reviews for the camera-ready submission.)</p>
  </li>
 </ol>
+ </div>
+</div>
 
-       
-<div class="SectionHeader"><div class="Full">
-<h2><a name="submit">How Do I Submit My Proposal?</a></h2>
-</div></div>        
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="submit"><h2 class="section">How Do I Submit My Proposal?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <ol>
  <li>Write your proposal and abstract documents using the formats specified above.</li>
  <li>Convert the proposal document into Adobe PDF format. Refer to our <a href="creating_pdf.php">Creating Adobe PDF Documents page</a> for assistance.</li>
  <li>Submit the <tt>.pdf</tt> proposal and the <?php echo $abstractCharLimit; ?> (including whitespace) text abstract description using the
 <?php if ($submissionReady) {
- echo '<a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">online workshop submission form</a>';
+ echo $submissionLink;
 } else {
  echo "<em>online workshop submission form (coming soon)</em>";
 } ?>. Note that the text version of the abstract will be published in the various forms of the program and proceedings, and may be formatted and/or edited to meet their requirements.  The proposal, formatted in <tt>.pdf</tt>, is for reviewers only. Please do not wait until the last minute to submit your documents because that is when everyone else will be connecting to our server!</li>
  <li>Make note of the workshop ID number and password assigned to your submission. You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages. You may need to check your spam trap for the confirmation and, later, for the acceptance or rejection notification.</li>
  <li> After receiving confirmation, go to the
 <?php if ($submissionReady) {
- echo '<a href="http://www.cs.grinnell.edu/~sigcse/sigcse2012/submission.shtml">author verification form</a>';
+ echo $verificationLink;
 } else {
  echo "<em>author verification form (coming soon)</em>";
-} ?> to review your submission for accuracy.  Send e-mail to <script>write_email( "sigcse12-workshops", "cs.holycross.edu" );</script> if there are any problems.</li>
+} ?> to review your submission for accuracy.  Send e-mail to <script>write_email( "sigcse2014-workshops", "ggc.ecu" );</script> if there are any problems.</li>
 </ol>
 
-<p><strong><i>Deadline:</i></strong> All electronic submissions must be <strong>received</strong> by <strong class="warning">September 2, 2011</strong> at 23:59 (11:59 p.m.) Hawaii-Aleutian Standard Time (HST).</p>
+<p><strong><i>Deadline:</i></strong> All electronic submissions must be <strong>received</strong> by <span class="label label-important"><? echo $mainSubmissionDeadline; ?></span> at 23:59 (11:59 p.m.) Hawaii-Aleutian Standard Time (HST).</p>
+ </div>
+</div>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="presentation">Questions</a></h2>
-</div></div>   
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="questions"><h2 class="section">Questions</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>If you have questions about workshop submissions, please contact the SIGCSE 2012 workshop chairs:<br/>
-Adrienne Decker<br/>
-Rochester Institute of Technology<br/>
-&nbsp;<br/>
-Lester I. McCann<br/>
-The University of Arizona<br/>
-<script>write_email("sigcse12-workshops", "cs.holycross.edu");</script></p>
+	Susan Haller<br/>
+    SUNY Potsdam<br/>
+    <script>write_email("hallersm", "potsdam.edu");</script><br/>
+    &nbsp;</br/>
+    Sue Fitzgerald<br/>
+    Metropolitan State University <br/>
+    <script>write_email("sue.fitzgerald", "metrostate.edu");</script></p>
+ </div>
+</div>
 
 <?php
- $updated = filemtime( $_SERVER["SCRIPT_FILENAME"] );
- $mainPage = false;
  include("../parts/bottom.php");
 ?>
