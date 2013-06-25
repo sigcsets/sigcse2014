@@ -1,56 +1,46 @@
 <?php
- $title = "SIGCSE 2012 - Final Submission Instructions";
- $onload = "pageLoad('authors', 'finalSubmission');";
+ $title = "Final Submission Instructions [SIGCSE 2014]";
+ $nav_menu = "authors";
  include("../parts/top.php");
 ?>
-<h1>Final Submission Instructions</h1>             
 
-<p><strong style="color: #FF0000;">NOTICE TO ALL ACCEPTED AUTHORS:</strong> Several activities must be performed to ensure that your work is correctly represented in the conference program and proceedings. Please read this entire page and follow all instructions carefully. Submissions that do not conform to the expected standards, specifications, and formats will be returned to the author for corrections and/or alterations.
-<strong style="color: #FF0000;">Submissions that fail to meet the expected standards, specifications, and formats by the deadline will not be published.</strong></p>
+<li><a href="#instructions"><i class="icon-chevron-right"></i> Final Submission Instructions</a></li>
+<li><a href="#verification"><i class="icon-chevron-right"></i> Database Information Verification</a></li>
+<li><a href="#acm"><i class="icon-chevron-right"></i> ACM Author-Izer</a></li>
+<li><a href="#preparation"><i class="icon-chevron-right"></i> Preparation of Final Copy</a></li>
+<li><a href="#submission"><i class="icon-chevron-right"></i> Submission of Final Copy</a></li>
+<li><a href="#questions"><i class="icon-chevron-right"></i> Questions?</a></li>
 
-<table width="99%">
- <tr>
-  <td width="50%" align="left" valign="top">
-  <h3>Contents:</h3>
-  <ul>
-    <li><a href="#verification">Database Information Verification</a></li>
-    <li><a href="#acm">ACM Author-Izer</a></li>
-    <li><a href="#preparation">Preparation of Final Copy</a></li>
-    <li><a href="#submission">Submission of Final Copy</a></li>
-    <li><a href="#questions">Questions?</a></li>
-  </ul>
-  </td>
-  <td width="50%" align="center" valign="top">
-    <div id="GoodMessage">
-      <h2><a name="kind">Important Dates for Accepted Authors</a></h2>    
-      <table>
-       <tr>
-        <td align="left" valign="top">Title/Author Modifications:</td><td align="left">Monday, October 31, 2011</td>
-       </tr>
-       <tr>
-  	    <td align="left">Final Version to SIGCSE DB:</td><td align="left">Tuesday, December 6, 2011</td>
-       </tr>
-       <tr>
- 	    <td align="left">Final Version to Publisher:</td><td align="left">Tuesday, December 6, 2011</td>
-       </tr>
-       <tr>
-  	    <td align="left">Copyright/Permission Form Due:</td><td align="left">Tuesday, December 6, 2011</td>
-       </tr>
-      </table>
-    </div>  
-  </td>              
- </tr>
-</table>
+<?php 
+  include("../parts/middle.php"); 
+?>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="verification">Database Information Verification</a></h2>
-</div></div>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center;" id="instructions">
+   <h1 class="section">Final Submission Instructions</h1>            
+<p><span class="label label-important">NOTICE TO ALL ACCEPTED AUTHORS:</span> Several activities must be performed to ensure that your work is correctly represented in the conference program and proceedings. Please read this entire page and follow all instructions carefully. Submissions that do not conform to the expected standards, specifications, and formats will be returned to the author for corrections and/or alterations.
+<span class="label label-important">Submissions that fail to meet the expected standards, specifications, and formats by the deadline will not be published.</span></p>
+ </div>
+</div>
 
-<p><strong style="color: #FF0000;">Monday, October 31, 2011</strong></p>
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="verification"><h2 class="section">Database Information Verification</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+<p>Verification deadline: <span class="label label-important"><? echo $mainUpdatesDeadline; ?></span></p>
 <ul>
- <li>Double-check the information about your submission that is recorded in the SIGCSE 2012 database. Some authors may make title changes based on reviewers' comments or instructions received from the Program Committee.  Please make modifications to the <strong>final</strong> title and author list <strong>immediately</strong> in the online database. <strong style="color: #FF0000;">THIS MODIFICATION IS URGENT</strong> -- the information is needed to prepare the Online Program.
- <p style="font-size: 1.0em">To check and/or update your Title and Author(s) listing in the SIGCSE database, use your submission ID number and password assigned to your submission by accessing the <a href="http://db.grinnell.edu/sigcse/sigcse2012/Submissions/submissionRegular.asp">Form for Submitting Materials and Updating Proposer Information</a> and proceed to the section entitled <strong>Verify/Update Previously-Submitted Materials</strong>.</p>
- <p style="font-size: 1.0em">Next:</p>
+ <li>Double-check the information about your submission that is recorded in the SIGCSE 2012 database. Some authors may make title changes based on reviewers' comments or instructions received from the Program Committee.  Please make modifications to the <strong>final</strong> title and author list <strong>immediately</strong> in the online database. <span class="label label-important">THIS MODIFICATION IS URGENT</span> -- the information is needed to prepare the Online Program.
+ <p style="font-size: 1.0em">To check and/or update your Title and Author(s) listing in the SIGCSE database, use your submission ID number and password assigned to your submission by accessing the 
+	<?php if ($submissionReady) {
+	 echo $verificationLink;
+	} else {
+	 echo "<em>author verification form (coming soon)</em>";
+	}
+	?>	
+	for Submitting Materials and Updating Proposer Information</a> and proceed to the section entitled <strong>Verify/Update Previously-Submitted Materials</strong>.</p>
+ <p>Next:</p>
  <ul>
   <li>Select among panel, paper, special session or workshop</li>
   <li>Enter your submission ID and password</li>
@@ -59,21 +49,28 @@
 </li>
 </ul>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="acm">ACM Author-Izer</a></h2>
-</div></div>
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="acm"><h2 class="section">ACM Author-Izer</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <p>ACM is introducing the <a href="http://www.acm.org/publications/acm-author-izer-service">ACM Author-Izer</a>, a unique service that enables ACM authors to post links on either their own web page or institutional repository for visitors to download the definitive version of their articles from the ACM Digital Library at no charge.  ACM Author-Izer also allows the dynamic display of download and citation statistics for each “authorized” article on the author’s personal page. By linking the author’s personal bibliography with the ACM Digital Library, downloads from the author’s site are captured in official ACM statistics, more accurately reflecting total usage. ACM Author-Izer also expands ACM’s reputation as an innovative “Green Path” publisher.</p>
+ </div>
+</div>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="preparation">Preparation of Final Copy</a></h2>
-</div></div> 
-
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="preparation"><h2 class="section">Preparation of Final Copy</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 <ol>
  <li><strong>Verify Conformance to All Formatting Guidelines:</strong>
                    <p style="font-size: 1.0em">
                    <strong>SIGCSE Guidelines</strong> -
                    Double-check that your submission adheres to the
-                   <a href="/sigcse2012/authors/format.php">SIGCSE 2012 Format Instructions</a>
+                   <a href="format.php">SIGCSE 2012 Format Instructions</a>
                    and includes all required sections (i.e., Abstract,
                    Categories &amp; Subject Descriptors, General Terms,
                    and Keywords).  These are the same guidelines published
@@ -117,7 +114,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 </code>
 </p>	         
 
-                   <p style="font-size: 1.0em">
+                   <p>
                    <strong>Sheridan Publishing Guidelines</strong> -
                    Your final submission must also conform to items
                    B through F of the Formatting Notes to All Authors
@@ -129,13 +126,13 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
               <li> <strong>Insert copyright statement:</strong>
 
-                   <p style="font-size: 1.0em">
+                   <p>
                    All papers, panels, and special sessions submissions
                    must have a copyright or permission release statement
                    inserted in the lower left of the first column.
                    </p>
 
-                   <p style="font-size: 1.0em">
+                   <p>
                    <strong>Papers</strong> -
                    The
                    <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#insertCopyright">publisher's web page for papers</a>
@@ -143,7 +140,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    notice for papers.
                    </p>
 
-                   <p style="font-size: 1.0em">
+                   <p>
                    <strong>Panels &amp; Special Sessions</strong> -
                    The
                    <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright">publisher's web page for panels and special sessions</a>
@@ -153,24 +150,18 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    </li>
             </ol>
+ </div>
+</div>
 
-<div class="SectionHeader"><div class="Full">
-<h2><a name="submission">Submission of Final Copy</a></h2>
-</div></div> 
-
-<p>
-            <strong style="color: #FF0000;">
-            Due by Tuesday, December 6, 2011
-            </strong>
-            </p>
-
-            <p>
-            <strong style="color: #FF0000;">Electronic Submissions Only!</strong>
-            </p>
-
-            <p>
-            <strong style="color: #FF0000;">THREE SUBMISSIONS ARE NECESSARY BY THE DEADLINE</strong>
-            <!--<strong class="boldnote">Three submissions are necessary by the deadline</strong> -->
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="submission"><h2 class="section">Submission of Final Copy</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+<p><span class="label label-important"><? echo $mainCameraReadyDeadline; ?></span></p>
+<p><span class="label label-important">Electronic Submissions Only!</span></p>
+<p><span class="label label-important">THREE SUBMISSIONS ARE NECESSARY BY THE DEADLINE</span>
             <strong>-- one to the online database maintained by SIGCSE
             and two to the publisher.  You must also submit a signed
             copyright release form or permission form depending
@@ -183,14 +174,14 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
               <li> <strong>Complete final editing and create a PDF file
                    of your submission.  Name your files correctly.</strong>
 
-                   <p style="font-size: 1.0em">
+                   <p>
                    Complete final preparation of your submission
                    according to the instructions listed
                    <a href="#prep">above</a>,
                    and then convert your paper into Adobe PDF format.
                    Be sure to retain a copy of the source document, as well.
                    Refer to our
-                   <a href="/sigcse2012/authors/creating_pdf.php">hints on creating PDF documents</a>.
+                   <a href="creating_pdf.php">hints on creating PDF documents</a>.
                    Name all of your files using your SIGCSE submission number
                    and the lead author's last name (e.g.,
                    <tt style="font-size: 1.2em">fp309-turing.pdf</tt>, <tt style="font-size: 1.2em">fp309-turing.doc</tt>, etc.).
@@ -204,12 +195,17 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    <!--(<strong class="boldnote">NOT THE ANONYMOUS VERSION</strong>) -->
                    to the SIGCSE online database.</strong>
 
-                   <p style="font-size: 1.0em">
+                   <p>
                    Using the ID number and password assigned to your
                    submission for review, submit the PDF file
                    of the final copy to the SIGCSE online database
                    by accessing the
-                   <a href="http://db.grinnell.edu/sigcse/sigcse2012/Submissions/submissionRegular.asp">Form for Submitting Materials and Updating Proposer Information</a>.
+                   <?php if ($submissionReady) {
+				 echo $verificationLink;
+				} else {
+				 echo "<em>author verification form (coming soon)</em>";
+				}
+				?>.
                    </p>
 
                    <p style="font-size: 1.0em">
@@ -280,7 +276,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    that you have completed all of the steps above.</strong>
 
                    <p style="font-size: 1.0em">
-                   Send email to the Publications Chair, Brad Miller <script language="javascript">write_email( "sigcse12-publications", "cs.holycross.edu" );</script>, with the subject line
+                   Send email to the Publications Chair, Brad Miller <script language="javascript">write_email( "sigcse2014-publications", "ggc.edu" );</script>, with the subject line
                    &quot;<strong><i>type IDnumber name</i></strong>&quot;,
                    where
                    </p>
@@ -308,7 +304,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    </p>
 
                    <p style="font-size: 1.0em">
-                   This email will inform the Publications Chair, Brad Miller <script language="javascript">write_email( "sigcse12-publications", "cs.holycross.edu" );</script>,
+                   This email will inform the Publications Chair, Brad Miller <script language="javascript">write_email( "sigcse2014-publications", "ggc.edu" );</script>,
                    that:
                    </p>
 
@@ -326,20 +322,23 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    </li>
             </ol>
+ </div>
+</div>
 
-
-<div class="SectionHeader"><div class="Full">
-<h2><a name="questions">Questions?</a></h2>
-</div></div> 
+<hr/>
+<div class="row-fluid">
+ <div class="span12" style="text-align: center" id="questions"><h2 class="section">Questions?</h2></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
 
 <p>If you have questions, please contact:<br />
 &nbsp;<br />
-Brad Miller<br/>
-Luther College<br/>
-<script>write_email( "sigcse12-publications", "cs.holycross.edu" );</script></p>
+Dennis J. Bouvier<br/>
+Southern Illinois University<br/>
+<script>write_email("djb", "acm.org");</script>
+</p>
 
 <?php
- $updated = filemtime( $_SERVER["SCRIPT_FILENAME"] );
- $mainPage = true;
  include("../parts/bottom.php");
 ?>

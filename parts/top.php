@@ -18,6 +18,9 @@ $bofAndPosterDeadline = "Monday, October 28, 2013";
 $bofAndPosterNotificationDeadline = "TBD";
 $bofAndPosterUpdatesDeadline = "TBD";
 
+$srcSubmissionDeadline = "TBD";
+$srcNotificationDeadline = "TBD";
+
 $conferenceYear = "2014";
 
 $prefix = "";
@@ -82,9 +85,13 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
                   <li><a href="<?php echo $prefix ?>/authors/special_sessions.php">Special Sessions</a></li>
                   <li><a href="<?php echo $prefix ?>/authors/workshops.php">Workshops</a></li>
                   <li><a href="<?php echo $prefix ?>/authors/bof.php">Birds of a Feather Sessions</a></li>
+                  <li><a href="<?php echo $prefix ?>/authors/posters.php">Posters</a></li>
+                  <li><a href="<?php echo $prefix ?>/authors/student_research.php">Student Research Competition</a></li>
 				  <li class="divider"></li>
+                  <li><a href="<?php echo $prefix ?>/authors/final_submission.php">Final Submission Instructions</a></li>
 				  <li><a href="<?php echo $prefix ?>/authors/format.php">Formatting Guidelines</a></li>
 				  <li><a href="<?php echo $prefix ?>/authors/creating_pdf.php">Creating PDFs</a></li>
+				  <li><a href="<?php echo $prefix ?>/authors/noshow.php">Presenter No-Show Policy</a></li>
 				</ul>
               </li>
               <?php
@@ -93,6 +100,12 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 				  $clazz = "active";
 			  ?>
 			  <li class="<?php echo $clazz ?>"><a href="<?php echo $prefix  ?>/exhibitors/"> Exhibitors/Supporters</a></li>
+			  <?php
+				$clazz = "";
+				if ($nav_menu == "committee")
+				  $clazz = "active";
+			   ?>
+			  <li class="<?php echo $clazz ?>"><a href="<?php echo $prefix  ?>/committee/"> Program Committee</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
