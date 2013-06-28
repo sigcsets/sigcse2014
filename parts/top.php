@@ -77,9 +77,9 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 				  $clazz = "active";
 			   ?>
 			  <li class="dropdown <?php echo $clazz ?>">
-			    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-pencil"></i> Authors <b class="caret"></b></a>
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Authors <b class="caret"></b></a>
 				<ul class="dropdown-menu">
-				  <li><a href="<?php echo $prefix ?>/authors/index.php">Call For Participation</a></li>
+				  <li><a href="<?php echo $prefix ?>/authors/">Call For Participation</a></li>
 				  <li><a href="<?php echo $prefix ?>/authors/papers.php">Papers</a></li>
                   <li><a href="<?php echo $prefix ?>/authors/panels.php">Panels</a></li>
                   <li><a href="<?php echo $prefix ?>/authors/special_sessions.php">Special Sessions</a></li>
@@ -94,6 +94,19 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 				  <li><a href="<?php echo $prefix ?>/authors/noshow.php">Presenter No-Show Policy</a></li>
 				</ul>
               </li>
+
+			  <?php
+			    $clazz = "";
+				if ($nav_menu == "attendees")
+				  $clazz = "active";
+			   ?>
+			  <li class="dropdown <?php echo $clazz ?>">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Attendees <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+                  <li><a href="<?php echo $prefix ?>/attendees/">General Information / Program</a></li>
+				</ul>
+			  </li>
+
               <?php
 			    $clazz = "";
 				if ($nav_menu == "exhibitors")
