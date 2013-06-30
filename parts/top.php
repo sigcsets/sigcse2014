@@ -12,6 +12,9 @@ $mainNotificationDeadline = "TBD";
 $mainUpdatesDeadline = "TBD";
 $mainCameraReadyDeadline = "TBD";
 
+$papersToReviewersDeadline = "TBD";
+$reviewsDeadline = "TBD";
+
 $workshopUrlDeadline = "TBD";
 
 $bofAndPosterDeadline = "Monday, October 28, 2013";
@@ -20,6 +23,11 @@ $bofAndPosterUpdatesDeadline = "TBD";
 
 $srcSubmissionDeadline = "TBD";
 $srcNotificationDeadline = "TBD";
+
+$reviewSiteReady = false;
+$reviewerRegistrationURL = "<a href=\"http://reviewurl\">reviewer registration form</a>";
+$reviewerURL = "<a href=\"http://reviewdocs\">proposal review site</a>";
+$reviewRegistrationDeadline = "TBD";
 
 $conferenceYear = "2014";
 
@@ -107,6 +115,24 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 				</ul>
 			  </li>
 
+			  <?php
+			    $clazz = "";
+				if ($nav_menu == "reviewers")
+				  $clazz = "active";
+			   ?>
+			  <li class="dropdown <?php echo $clazz ?>">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Reviewers <b class="caret"></b></a>
+				<ul class="dropdown-menu">
+                  <li><a href="<?php echo $prefix ?>/reviewers/">Reviewer Information</a></li>
+			      <li><a href="<?php echo $prefix ?>/reviewers/guide_papers.php">Paper Review Guide</a></li>
+			      <li><a href="<?php echo $prefix ?>/reviewers/guide_panels.php">Panel Review Guide</a></li>
+			      <li><a href="<?php echo $prefix ?>/reviewers/guide_sessions.php">Special Session Review Guide</a></li>
+			      <li><a href="<?php echo $prefix ?>/reviewers/guide_workshops.php">Workshop Review Guide</a></li>
+			      <li><a href="<?php echo $prefix ?>/reviewers/guide_bofs.php">Birds of a Feathers (BOFs) Review Guide</a></li>
+			      <li><a href="<?php echo $prefix ?>/reviewers/guide_posters.php">Poster Review Guide</a></li>
+				</ul>
+			  </li>
+
               <?php
 			    $clazz = "";
 				if ($nav_menu == "exhibitors")
@@ -127,7 +153,8 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 
     <div class="container-fluid">
       <div class="row-fluid">
-        <div class="span3">
+	    <!-- The scrollspy left nav isn't needed on tablets/phones -->
+        <div class="span3 visible-desktop">
           <div class="well sidebar-nav sidebar-nav-fixed" id="side-navbar">
             <div class="row-fluid">
 	          <div class="span6 center"><img src="<?php echo $prefix ?>/img/sigcse_logo_small.png" /></div>

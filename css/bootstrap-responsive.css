@@ -978,6 +978,7 @@
   }
   .nav-collapse {
     clear: both;
+    z-index: 100;
   }
   .nav-collapse .nav {
     float: none;
