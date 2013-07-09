@@ -25,7 +25,16 @@
 
     <hr/>
     <div style="text-align: center;" id="supporters"><h2>SIGCSE 2014 Supporters</h2></div>
-	<p>Coming soon!</p>
+      	<div class="row-fluid">
+          <div class="span12 center">
+	       <h3>SIGCSE Supporters</h3>
+	       <h4>Platinum Supporter</h4>
+	       <a href="http://www.microsoft.com/faculty"><img src="<?php echo $prefix ?>/img/mslogo.jpg" /></a>
+	       <h4>Gold Supporter</h4>
+	       <a href="http://www.abet.org/"><img src="<?php echo $prefix ?>/img/abetlogo.png" /></a>
+	      </div>
+        </div>
+
 
     <hr/>
 	<img src="<?php echo $prefix ?>/img/sigcse_logo_large.png" />
