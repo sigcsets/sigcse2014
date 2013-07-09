@@ -11,6 +11,10 @@
   include("parts/middle.php"); 
 ?>
 
+<noscript>
+<div class="alert alert-error"><i class="icon-exclamation-sign"></i> Javascript is required to navigate the SIGCSE 2014 Web site. Please enable Javascript in your browser.</div>	
+</noscript>
+
 <div class="row-fluid">
   <div class="span8">
 	<div style="text-align: center;" id="welcome"><h2>Welcome!</h2></div>
