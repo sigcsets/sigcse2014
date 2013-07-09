@@ -139,7 +139,7 @@ Special session proposal review is not blind. Criteria used in reviewing the pro
 <p>Please contact the SIGCSE <? echo $conferenceYear; ?> Panels and Special Sessions Chair with your questions:<br/>
 	Stephen Cooper<br/>
     Stanford University<br/>
-    <script>write_email("coopers", "stanford.edu");</script></p>
+    <script>write_email("sigcse2014-panels", "ggc.edu");</script></p>
  </div>
 </div>
           

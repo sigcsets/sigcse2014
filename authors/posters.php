@@ -146,7 +146,7 @@
 <p>If you have questions about poster submissions, please contact SIGCSE <%= $conferenceYear %> poster chair:<br/>
 Michael T. Helmick<br/>
 University of Cincinnati<br/>
-<script>write_email("mike.helmick", "gmail.com");</script></p>
+<script>write_email("sigcse2014-posters", "ggc.edu");</script></p>
  </div>
 </div>
 

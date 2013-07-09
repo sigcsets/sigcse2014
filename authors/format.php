@@ -121,7 +121,7 @@ Templates for submissions can be found at the <a href="http://www.acm.org/sigs/p
 &nbsp;<br />
 Dennis J. Bouvier<br/>
 Southern Illinois University Edwardsville<br/>
-<script>write_email("djb", "acm.org");</script></p>
+<script>write_email("sigcse2014-publications", "ggc.edu");</script></p>
  </div>
 </div>
 

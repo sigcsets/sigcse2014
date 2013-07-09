@@ -83,7 +83,7 @@
 <p>If you have questions about the student research competition, please contact:<br/>
 	Ann Sobel<br/>
     Miami University (Ohio)<br/>
-    <script>write_email("sobelae", "muohio.edu");</script></p>
+    <script>write_email("sigcse2014-src", "ggc.edu");</script></p>
  </div>
 </div>
 

@@ -147,11 +147,10 @@
 <p>If you have questions about workshop submissions, please contact the SIGCSE 2012 workshop chairs:<br/>
 	Susan Haller<br/>
     SUNY Potsdam<br/>
-    <script>write_email("hallersm", "potsdam.edu");</script><br/>
     &nbsp;</br/>
     Sue Fitzgerald<br/>
     Metropolitan State University <br/>
-    <script>write_email("sue.fitzgerald", "metrostate.edu");</script></p>
+    <script>write_email("sigcse2014-workshops", "ggc.edu");</script></p>
  </div>
 </div>
 

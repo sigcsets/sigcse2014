@@ -119,7 +119,7 @@
 <p>If you have questions, please contact:<br />
 	Marc Rubin<br/>
     Colorado School of Mines<br/>
-    <script>write_email("mrubin", "mymail.mines.edu");</script>
+    <script>write_email("sigcse2014-bofs", "ggc.edu");</script>
 </p>
 
 <?php
