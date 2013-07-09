@@ -120,7 +120,7 @@ Templates for submissions can be found at the <a href="http://www.acm.org/sigs/p
 <p><b>Contact the Publications chair:</b><br/>
 &nbsp;<br />
 Dennis J. Bouvier<br/>
-Southern Illinois University<br/>
+Southern Illinois University Edwardsville<br/>
 <script>write_email("djb", "acm.org");</script></p>
  </div>
 </div>

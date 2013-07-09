@@ -34,7 +34,7 @@
 
     <p><strong>Publications</strong><br/>
     Dennis J. Bouvier<br/>
-    Southern Illinois University<br/>
+    Southern Illinois University Edwardsville<br/>
     <script>write_email("djb", "acm.org");</script></p>
 
     <p><strong>Database Administrators</strong><br/>
@@ -89,7 +89,7 @@
 
     <p><strong>Treasurer</strong><br/>
     Scott McElfresh<br/>
-    Wake Forest University<br/>
+    Longwood University<br/>
     <script>write_email("scottmcelfresh", "acm.org");</script></p>
   </div>
 

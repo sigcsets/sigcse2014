@@ -335,7 +335,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 <p>If you have questions, please contact:<br />
 &nbsp;<br />
 Dennis J. Bouvier<br/>
-Southern Illinois University<br/>
+Southern Illinois University Edwardsville<br/>
 <script>write_email("djb", "acm.org");</script>
 </p>
 
