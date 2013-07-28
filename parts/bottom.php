@@ -1,6 +1,6 @@
 <hr/>
   <footer>
-    <p>&copy; SIGCSE 2013</p>
+    <p>&copy; SIGCSE 2014</p>
     <p>Follow the source at <a href="https://github.com/sigcsets/sigcse2014">https://github.com/sigcsets/sigcse2014</a></p>
   </footer>
  </div>
