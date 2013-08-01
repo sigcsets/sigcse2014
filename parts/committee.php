@@ -45,9 +45,9 @@
     &nbsp;</br>
     &nbsp;</br>
 
-    Sue Fitzgerald<br/>
-    Metropolitan State University <br/>
-    <img src="../img/CommitteeMembers/SueFitzgerald.gif" alt="Sue Fitzgerald" width="128" />
+    Position opening<br/>
+    TBA<br/>
+    <img src="../img/sigcse_logo_small.png" alt="TBA" width="128" />
     &nbsp;</br>
     &nbsp;</br>
 
@@ -97,7 +97,7 @@
     <script>write_email("sigcse2014-posters", "ggc.edu");</script></p>
     Michael T. Helmick<br/>
     University of Cincinnati<br/>
-        <img src="../img/sigcse_logo_small.png" alt="Michael T. Helmick" width="128"/>
+        <img src="../img/CommitteeMembers/MikeHelmick.jpg" alt="Michael T. Helmick" width="128"/>
     &nbsp;</br>
     &nbsp;</br>    
 
@@ -176,17 +176,17 @@
 
     <p><strong>Support/Exhibitor Liaison</strong><br/>
     <script>write_email("sigcse2014-exhibitors", "ggc.edu");</script></p>
-    Susan Rodger<br/>
-    Duke University<br/>
-        <img src="../img/CommitteeMembers/SusanRodger.png" alt="Susan Rodger" width="128"/>
+    Position opening<br/>
+    TBA<br/>
+    <img src="../img/sigcse_logo_small.png" alt="TBA" width="128" />
     &nbsp;</br>
-    &nbsp;</br>
+    &nbsp;</br> 
 
     <p><strong>Pre-Conference Events Liaison</strong><br/>
     <script>write_email("sigcse2014-preconference", "ggc.edu");</script></p>
     Mary Anne Egan<br/>
     Siena College<br/>
-        <img src="../img/sigcse_logo_small.png" alt="Mary Anne" width="128"/>
+        <img src="../img/CommitteeMembers/MaryAnneEgan.jpg" alt="Mary Anne Egan" width="128"/>
     &nbsp;</br>
     &nbsp;</br>
 
