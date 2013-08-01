@@ -30,7 +30,7 @@ This policy was approved by the SIGCSE Board in June of 2008.</p>
  <div class="span12">
 
 <p>Questions on this policy as it relates to SIGCSE <? echo $conferenceYear; ?>?</p>
-<p>If you have questions, please contact the SIGCSE 2012 Program Chairs:<br/>
+<p>If you have questions, please contact the SIGCSE 2014 Program Chairs:<br/>
 <script>write_email( "sigcse2014-program", "ggc.edu" );</script><br/>
 Adrienne Decker<br/>
 Rochester Institute of Technology<br/>

@@ -12,8 +12,8 @@ $mainNotificationDeadline = "TBD";
 $mainUpdatesDeadline = "TBD";
 $mainCameraReadyDeadline = "TBD";
 
-$papersToReviewersDeadline = "TBD";
-$reviewsDeadline = "TBD";
+$papersToReviewersDeadline = "Monday, September 9, 2013";
+$reviewsDeadline = "Monday, September 23, 2013";
 
 $workshopUrlDeadline = "TBD";
 
@@ -21,7 +21,7 @@ $bofAndPosterDeadline = "Monday, October 28, 2013";
 $bofAndPosterNotificationDeadline = "TBD";
 $bofAndPosterUpdatesDeadline = "TBD";
 
-$srcSubmissionDeadline = "TBD";
+$srcSubmissionDeadline = "Sunday, September 29, 2013";
 $srcNotificationDeadline = "TBD";
 
 $reviewSiteReady = false;
