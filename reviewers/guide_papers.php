@@ -26,14 +26,15 @@
 <div class="row-fluid">
  <div class="span12">
 <p>Here are some recommendations for writing reviews of submitted papers that help the authors and improve the quality of the symposium.</p>
-<ul><li>Recognize the difference in types of papers. This year we have asked authors to categorize their papers to help you distinguish their aim.  
+<ul>
+<!--<li>Recognize the difference in types of papers. This year we have asked authors to categorize their papers to help you distinguish their aim.  
 <ul>
  <li><strong>Experience Reports</strong> describe an idea, course or classroom experience that worked well and is now recommended to others.</li>
  <li><strong>Research Studies</strong> present a careful study, with an appropriate use of methodology (e.g., case study, qualitative methods, quasi-experimental, experimental) to support the investigation and stated results. The methodology does not need to be quantitative; it does, however, need to be appropriate to support the claims made by the author.</li>
  <li><strong>Philosophical Papers</strong> present an argument for a direction or idea to be considered in our curriculum, a particular course, or the overall field.</li>
  <li><strong>Tool Papers</strong> present courseware or a concrete process that has been developed and is now ready for wider use.	</li>
 </ul>
- <p>While each type of paper is evaluated on organization, technical soundness, potential contribution and overall evaluation, you may be looking for different things in these categories depending on the category of the paper. You do not need to require an experience report to be a research study, nor a research study to provide a tool.  All papers should show appropriate organization and should reflect the literature that already exists related to the topic being discussed.  All claims should be supported by logical arguments that follow from ideas, experience or data provided. </p></li>
+ <p>While each type of paper is evaluated on organization, technical soundness, potential contribution and overall evaluation, you may be looking for different things in these categories depending on the category of the paper. You do not need to require an experience report to be a research study, nor a research study to provide a tool.  All papers should show appropriate organization and should reflect the literature that already exists related to the topic being discussed.  All claims should be supported by logical arguments that follow from ideas, experience or data provided. </p></li> -->
  <li>Your job as a reviewer is to write detailed reviews, even for excellent papers. In addition to telling the authors what you didn't like about their paper, be sure to include what you did like as well.</li>
  <li>Even if your opinion is that the paper is poorly written or poorly thought-out, you can still provide constructive criticisms to help the authors, and in the long run, the conference.  Think of your goal as convincing the authors of the paper you're reviewing to submit something else next year, but of such high quality that it will be well-reviewed and easily accepted. Give the authors advice on how to do that.</li>
  <li>The best reviews clearly justify the reviewer's choice of rating.  The least valuable review gives a low score with no written comments.  That simply tells the authors that they have been unsuccessful, with no indication of how or why.</li>

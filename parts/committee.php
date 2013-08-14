@@ -139,7 +139,7 @@
     <script>write_email("sigcse2014-publicity", "ggc.edu");</script></p>
     Jamie Spacco<br/>
     Knox College<br/>
-        <img src="../img/sigcse_logo_small.png" alt="Jamie Spacco" width="128"/>
+        <img src="../img/CommitteeMembers/JamieSpacco.jpg" alt="Jamie Spacco" width="128"/>
     &nbsp;</br>
     
 
@@ -157,7 +157,7 @@
     <script>write_email("sigcse2014-evaluations", "ggc.edu");</script></p>
     Carl Alphonce<br/>
     University at Buffalo<br/>
-        <img src="../img/sigcse_logo_small.png" alt="Carl Alphonce" width="128"/>
+        <img src="../img/CommitteeMembers/CarlAlphonce.jpg" alt="Carl Alphonce" width="128"/>
     &nbsp;</br>
     &nbsp;</br>   
 

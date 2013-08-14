@@ -1,10 +1,10 @@
 <?php header('Content-type: text/html; charset=utf-8'); ?>
 <?php 
 // Global configuration
-$submissionReady = false;
-$submissionURL = "http://submiturl";
-$submissionLink = "<a href=\"http://submiturl\">online submission form</a>";
-$verificationLink = "<a href=\"http://submiturl\">author verification page</a>";
+$submissionReady = true;
+$submissionURL = "https://www.openconf.org/sigcse2014/";
+$submissionLink = "<a href=\"https://www.openconf.org/sigcse2014/\">online submission form</a>";
+$verificationLink = "<a href=\"https://www.openconf.org/sigcse2014/\">author verification page</a>";
 $abstractCharLimit = "800 characters";
 
 $mainSubmissionDeadline = "Friday, September 6, 2013";
@@ -24,10 +24,10 @@ $bofAndPosterUpdatesDeadline = "TBD";
 $srcSubmissionDeadline = "Sunday, September 29, 2013";
 $srcNotificationDeadline = "TBD";
 
-$reviewSiteReady = false;
-$reviewerRegistrationURL = "<a href=\"http://reviewurl\">reviewer registration form</a>";
-$reviewerURL = "<a href=\"http://reviewdocs\">proposal review site</a>";
-$reviewRegistrationDeadline = "TBD";
+$reviewSiteReady = true;
+$reviewerRegistrationURL = "<a href=\"https://www.openconf.org/sigcse2014/track1/openconf.php\">reviewer registration form</a>";
+$reviewerURL = "<a href=\"https://www.openconf.org/sigcse2014/track1/review/signin.php?OPENCONF=00fe5t2qsg70rggd6fbvlbkvn0\">proposal review site</a>";
+$reviewRegistrationDeadline = "August 23, 2013";
 
 $conferenceYear = "2014";
 

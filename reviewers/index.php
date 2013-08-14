@@ -52,12 +52,19 @@
 } else {
  echo "<em>reviewer information form (coming soon)</em>";
 }
-?>. Please limit yourself to areas in which you feel somewhat expert. The system will automatically ask you to consider the areas carefully if you choose more than four.</p></li>
+?>. In the box that says "Sign Up — Keycode:" input the code <code>review14</code>.</p> 
+
+<p>After you have filled in your contact information, 
+it it <strong>MOST IMPORTANT</strong> to select the topic areas for which you would like to review.
+
+Please limit yourself to areas in which you feel somewhat expert. The system will automatically ask you to consider the areas carefully if you choose more than four.</p></li>
+ 
+
  <li><strong>For Those Who Have Previously Reviewed</strong><p>All people currently listed in the reviewer database will receive an e-mail message in August with their current recorded information.</p>
   <ul>
 	<li>If you would like to update your information in the database, go to the
 <?php if ($reviewSiteReady) {
- echo $reviewerRegistrationURL;
+ echo $reviewerURL;
 } else {
  echo "<em>reviewer information form (coming soon)</em>";
 }
@@ -68,6 +75,7 @@
  </div>
 </div>
 
+
 <hr/>
 <div class="row-fluid">
  <div class="span12" style="text-align: center" id="review"><h2 class="section">How Do I Review SIGCSE Submissions?</h2></div>
@@ -77,14 +85,14 @@
 <p>Submissions are reviewed according to categories indicated by the authors.  Reviewers will be assigned no more than three papers or six submissions of another type, based on their indicated subject areas of expertise. At least four reviewers are assigned to each.  Papers are only available in electronic PDF format.  Reviewers must use a Web browser and software capable of displaying PDF documents (For example: <a href="http://get.adobe.com/reader/?promoid=BUIGO" target="_blank">Adobe Reader</a>).</p>
 <p>The reviewing process has 3 simple steps:</p>
 <ol>
- <li> When reviews are assigned, you will be sent the reference numbers for each submission you are reviewing along with a reminder of your reviewer ID and password. Become familiar with the review criteria by looking at the
+ <li> When reviews are assigned, you will be sent an email from the system indicating that you have been assigned submissions to review and given a link that you can use to access those assigned submissions. Become familiar with the review criteria by looking at the 
 <?php if ($reviewSiteReady) {
  echo $reviewerURL;
 } else {
  echo "<em>proposal review forms (link coming soon)</em>";
 }
-?> for each category of submission.</li>
-  <li> Read through the collections of example review text for the types of submissions you are reviewing. Included are examples of comments for good, useful reviews.
+?> for each category of submission.
+Read through the collections of example review text for the types of submissions you are reviewing. Included are examples of comments for good, useful reviews.</li>
   <ul>
    <li><a href="guide_papers.php">Guidelines for Reviewers of Paper Submissions</a></li>
    <li><a href="guide_panels.php">Guidelines for Reviewers of Panel Submissions</a></li>
@@ -93,15 +101,17 @@
    <li><a href="guide_bofs.php">Guidelines for Reviewers of Birds of a Feathers (BOFs) Submissions</a></li>
    <li><a href="guide_posters.php">Guidelines for Reviewers of Poster Submissions</a></li> 
   </ul>
+  &nbsp;
   </li>
-  <li> Access your assigned submission(s) through the
+  <li> Access your assigned submission(s) through the submission viewing form 
 <?php if ($reviewSiteReady) {
  echo $reviewerURL;
 } else {
  echo "<em>submission viewing form (coming soon)</em>";
 }
-?>. You may review the submission on-line or print it for review at your leisure.
-  <p><strong class="note">If your browser does not open a submission automatically, try saving the file with a .pdf extension and opening it  with Adobe Reader (or another PDF file viewer).  See the <a href="/sigcse2012/faq/reviewers_faq.php">Reviewers FAQ section</a> for additional information.</strong></p>
+?>.  You may review the submission on-line or print it for review at your leisure.
+  <p><strong class="note">If your browser does not open a submission automatically, try saving the file with a .pdf extension and opening it  with Adobe Reader (or another PDF file viewer).  </strong></p>
+  <!-- See the <a href="/sigcse2013/faq/reviewers_faq.php">Reviewers FAQ section</a> for additional information.</strong></p> -->
   </li>
   <li>After reviewing, complete a report for each submission.  Submit Reviews by
 <?php if ($reviewSiteReady) {

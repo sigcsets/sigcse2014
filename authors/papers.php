@@ -161,13 +161,17 @@
 </div>
 <div class="row-fluid">
  <div class="span12">
-<p>Authors must submit <b>two versions</b> of their paper: a "publication" version that includes author/institution information, and an anonymized version. The goal of the anonymized version is to, as much as possible, allow the author(s) of the paper an unbiased review. The anonymized version should have ALL references to the authors removed (including author's names and affiliation plus identifying information within the body of the paper such as websites or related publications).  Self-citations need not be removed if they are worded  so that the reviewer doesn't know if the writer is citing himself/herself. That is, instead of writing "We reported on our first experiment in 2007 in a previous paper [1]", the writer might write "In 2007, an initial experiment was done in this area as reported in [1]."</p>
-            
-<p>The publication version is available for use by the Program Committee. Both versions are limited to a <strong>maximum of 6 pages</strong> and must adhere to the <a href="format.php">SIGCSE <? echo $conferenceYear; ?> Format Instructions</a>. <a href="http://www.acm.org/sigs/pubs/proceed/template.html">Templates are available in Word, WordPerfect, and LaTeX</a>.</p>
+<p>Authors must submit ONLY an anonymized version of the paper. The goal of the anonymized version is to, as much as possible, allow the author(s) of the paper an unbiased review. The anonymized version should have ALL references to the authors removed (including author's names and affiliation plus identifying information within the body of the paper such as websites or related publications). Self-citations need not be removed if they are worded so that the reviewer doesn't know if the writer is citing himself/herself. That is, instead of writing "We reported on our first experiment in 2007 in a previous paper [1]", the writer might write "In 2007, an initial experiment was done in this area as reported in [1].</p>
+<p>If the paper is accepted for the conference and for publication, authors will be asked to complete a camera-ready copy that will include all appropriate author names, citations, and references.</p>            
+<p>The paper is limited to a <strong>maximum of 6 pages</strong> and must adhere to the <a href="format.php">SIGCSE <? echo $conferenceYear; ?> Format Instructions</a>. <a href="http://www.acm.org/sigs/pubs/proceed/template.html">Templates are available in Word, WordPerfect, and LaTeX</a>.</p>
 <p>If your paper is accepted you will have a chance to modify your publication version before it is published.</p>
 <p>Electronic submission of papers is required.</p>
  </div>
 </div>
+
+
+
+
 
 <hr/>
 <div class="row-fluid">

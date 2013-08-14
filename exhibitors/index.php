@@ -57,6 +57,81 @@
 	  <div class="lightbox-caption"><p>SIGCSE 2008 Exhibit Hall view 2</p></div>
 	</div>
   </div>
+
+    <div style="text-align: center;" id="supporters"><h2 class="section">SIGCSE 2014 Supporters</h2></div>
+        <div class="row-fluid">
+          <div class="span12 center">
+         <h4>Platinum Supporter</h4>
+         <a href="http://www.microsoft.com/faculty"><img src="<?php echo $prefix ?>/img/mslogo.jpg" width="360"/></a>
+         <h4>Gold Supporter</h4>
+         <a href="http://www.abet.org/"><img src="<?php echo $prefix ?>/img/abetlogo.png" /></a>
+        <h4>Silver Supporter</h4>
+         <a href="http://www.oracle.com/index.html"><img src="<?php echo $prefix ?>/img/oracle_logo.gif" /></a>
+
+        </div>
+    </div>
+    
+    <hr />
+
+    <div style="text-align: center;" id="exhibitors"><h2 class="section">SIGCSE 2014 Exhibitors</h2></div>
+    <table>
+      <tbody>
+      <tr>
+      <td align="left" valign="top">
+      <ul>
+      <li>ABET</li>
+      <li>Broadening Participation in Computing</li>
+      <li>Cengage Learning</li>
+      <li>Franklin, Beedle & Associate</li>
+      <li>InterSystems Corporation</li>
+      <li>Jones & Bartlett Learning</li>
+      </ul>      
+      </td>
+      <td align="left" valign="top">
+      <ul>
+      <li>Kent State University/ School of Digital Sciences</li>
+      <li>NSF</li>
+      <li>Oracle Corporation</li>
+      <li>Pearson</li>
+      <li>The MIT Press</li>
+      <li>Wiley</li>
+      </ul>
+      </td>
+      <td align="left" valign="top">&nbsp;</td>
+      </tr>
+      </tbody>
+    </table>
+    
+
+<h2 class="section">Questions?</h2>
+</div>
+</div>
+<p>Questions about supporting and exhibiting at SIGCSE 2013 can be directed to the Exhibit Manager or our Supporter / Exhibitor Liaison.</p>
+<h3>Exhibit Manager</h3>
+<p>Dorothea Heck<br />
+D. Lawrence Planners LLC<br />
+SIGCSE Exhibition Management<br />
+1125 Atlantic Avenue STE 634<br />
+Atlantic City, NJ 08401<br />
+tel. 609.344.1333&nbsp;<br />
+fax. 609.348.4433<br />
+E-mail:&nbsp;<a href="mailto:SIGCSE@dlplan.com">SIGCSE@dlplan.com</a></p>
+
+
+<h3>Exhibitor Liaisons</h3>
+<p>Prof. Susan Rodger<br />
+Duke University<br /> 
+tel. 919.660.6595<br />
+Email:&nbsp;<a href="mailto:rodger@cs.duke.edu">rodger@cs.duke.edu</a></p>
+
+<p>Tom Cortina<br />
+Carnegie Mellon University<br />
+tel. 412.268.3514<br />
+Email:&nbsp;<a href="mailto:rodger@cs.duke.edu">tcortina@cs.cmu.edu</a></p>
+
+  </div>       
+    <div style=" clear:both;"></div>
+  </div>
 </div>
 
 <?php
