@@ -8,8 +8,8 @@ $verificationLink = "<a href=\"https://www.openconf.org/sigcse2014/\">author ver
 $abstractCharLimit = "800 characters";
 
 $mainSubmissionDeadline = "Friday, September 6, 2013";
-$mainNotificationDeadline = "TBD";
-$mainUpdatesDeadline = "TBD";
+$mainNotificationDeadline = "Monday, October 14, 2013";
+$mainUpdatesDeadline = "Thursday, October 24, 2013";
 $mainCameraReadyDeadline = "TBD";
 
 $papersToReviewersDeadline = "Monday, September 9, 2013";

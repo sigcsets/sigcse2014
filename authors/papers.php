@@ -56,102 +56,91 @@
 </div>
 <div class="row-fluid">
  <div class="span12">
-<p>We invite papers falling into the following four broad classes.</p>
-<ul>
- <li><strong>Experience Reports</strong> describe an idea, course or classroom experience that worked well and is now recommended to others.</li>
- <li><strong>Research Studies</strong> present a careful study, with an appropriate use of methodology (e.g., case study, qualitative methods, quasi-experimental, experimental) to support the investigation and stated results. The methodology does not need to be quantitative; it does, however, need to be appropriate to support the claims made by the author.</li>
- <li><strong>Philosophical Papers</strong> present an argument for a direction or idea to be considered in our curriculum, a particular course, or the overall field.</li>
- <li><strong>Tool Papers</strong> present courseware or a concrete process that has been developed and is now ready for wider use.</li>
-</ul>
-<p>In all cases, papers must be original work; they should include a review of previous, related work that helps place the submitted work into context. All results and arguments presented should follow clearly from the evidence provided in the paper.</p>
-<p>Within the broad classes above, we encourage submissions that address any of the following course-related areas:</p>
-<table class="table table-striped table-bordered">
- <tr>
-  <td>Algorithms</td>
-  <td>Architecture/Hardware</td>
-  <td>Artificial Intelligence/Machine Learning</td>
- </tr>
- <tr>
-  <td>Compiler / Programming Languages &amp; Paradigms</td>
-  <td>Computational Science</td>
-  <td>CS 1/2</td>
- </tr>
- <tr>
-  <td>Database/Data Mining</td>
-  <td>Data Structures</td>
-  <td>Discrete Mathematics</td>
- </tr>
- <Tr>
-  <td>Distributed/Parallel Computing/HPC</td>
-  <td>Graphics/Visualization</td>
-  <td>Human-Computer Interaction</td>
- </tr>
- <tr>
-  <td>Networking</td>
-  <td>Operating Systems</td>
-  <td>Real time/Embedded Systems</td>
- </tr>
- <tr>
-  <td>Privacy/Security</td>
-  <td>Software Engineering</td>
-  <td>Theory</td>
- </tr>
-</table>
-
-<p>You may also consider submitting a paper in one of the following general topic areas:</p>
+<p>We invite papers falling into the following topic areas.</p>
 <table class="table table-striped table-bordered">
  <tr>
   <td>Active Learning</td>
   <td>Accessibility</td>
-  <td>AP/IB Courses &amp; Curricula</td>
-  <td>Assessment</td>
+  <td>Algorithms</td>
  </tr>
  <tr>
+  <td>AP/IB Courses &amp; Curriculum</td>
+  <td>Architecture/Hardware</td>
+  <td>Artificial Intelligence/Machine Learning</td>
+ </tr>
+ <tr>
+  <td>Assessment</td>
   <td>Classroom Management</td>
   <td>Communication Skills</td>
-  <td>Computers and Society</td>
-  <td>CS Ed Research</td>
- </tr>
- <tr>
-  <td>Curriculum Issues</td>
-  <td>Distance Education</td>
-  <td>Ethics</td>
-  <td>Gender and Diversity</td>
- </tr>
- <tr>
-  <td>Graduate Studies</td>
-  <td>History of Computing</td>
-  <td>Information Systems</td>
-  <td>Information Technology</td>
- </tr>
- <tr>
-  <td>Instructional Technologies</td>
-  <td>K-12 Instruction</td>
-  <td>Laboratory Experience</td>
-  <td>Multimedia</td>
- </tr>
- <tr>
-  <td>New Curriculum / Program / Degree Initiatives</td>
-  <td>Non-majors</td>
-  <td>Non-traditional Students</td>
-  <td>Object-Oriented Issues</td>
- </tr>
- <tr>
-  <td>Outreach</td>
-  <td>Professional Practice</td>
-  <td>Student Research/Capstones/Internships</td>
-  <td>Web-based Techniques</td>
- </tr>
-</table>
-
-<p>Descriptions of each of these paper categories can be found at the 
-<?php if ($submissionReady) {
- echo $submissionLink;
-} else {
- echo "<em>online topic display site (coming soon)</em>";
-} 
-?>. When you submit your paper, we will request that you indicate the broad class you believe the paper fits into as well as up to three categories from the course-related and general topic areas.
-		</p>
+</tr>
+<tr>
+<td>Compilers/Programming Languages &amp; Paradigms</td>
+<td>Computational Thinking</td>
+<td>Computers and Society</td>
+</tr>
+<tr>
+<td>CS1/2</td>
+<td>CS Ed Research/Research Study</td>
+<td>Curriculum Issues</td>
+</tr>
+<tr>
+<td>Database/Data Mining</td>
+<td>Data Structures</td>
+<td>Discrete Mathematics</td>
+</tr>
+<tr>
+<td>Distance/Online Education</td>
+<td>Distributed/Parallel Computing/HPC</td>
+<td>Ethics</td>
+</tr>
+<tr>
+<td>Experience Report</td>
+<td>Gender and Diversity</td>
+<td>Graduate Studies</td>
+</tr>
+<tr>
+<td>Graphics/Visualization</td>
+<td>History of Computing</td>
+<td>Human-Computer Interaction</td>
+</tr>
+<tr>
+<td>Information Systems</td>
+<td>Information Technology</td>
+<td>Instructional Technologies</td>
+</tr>
+<tr>
+<td>K-12 Instruction</td>
+<td>Laboratory Experience</td>
+<td>Multimedia</td>
+</tr>
+<tr>
+<td>Networking</td>
+<td>New Curriculum/Program/Degree Initiatives</td>
+<td>Non-majors</td>
+</tr>
+<tr>
+<td>Non-traditional students</td>
+<td>Object-oriented Issues</td>
+<td>Operating Systems</td>
+</tr>
+<tr>
+<td>Outreach</td>
+<td>Privacy/Security</td>
+<td>Professional Practice</td>
+</tr>
+<tr>
+<td>Real-Time/Embedded Systems</td>
+<td>Robotics</td>
+<td>Software Engineering</td>
+</tr>
+<tr>
+<td>Student Research/Capstone/Internships</td>
+<td>Theory</td>
+<td>Tools/Libraries/Learning Environments</td>
+</tr>
+<tr>
+<td>Web-Based Technology</td>
+</tr>
  </div>
 </div>
 
@@ -180,15 +169,15 @@
 <div class="row-fluid">
  <div class="span12">
 <ol>
- <li>Write your paper using the format specified above. Make sure that you have two versions of the paper: the publication version and an anonymized version. Within the paper, you must provide Category and Subject Descriptors, General Terms, and Keywords based on the ACM classification system. These requirements are described in more detail in the <a href="format.php">SIGCSE 2012 Format Instructions</a>.</li>
+ <li>Write your paper using the format specified above. Within the anonymized paper, you must provide Category and Subject Descriptors, General Terms, and Keywords based on the ACM classification system. These requirements are described in more detail in the <a href="format.php">SIGCSE 2014 Format Instructions</a>.</li>
  <li> Convert your paper into Adobe PDF format. Refer to our <a href="creating_pdf.php">Creating Adobe PDF Documents page</a> for assistance.</li>
- <li> Submit both versions using the
+ <li> Submit your paper using the
 <?php if ($submissionReady) {
  echo $submissionLink;
 } else {
  echo "<em>online paper submission form (coming soon)</em>";
 } 
-?>. Note that there are several ways you must categorize your paper submission in the online system. The broad classification you choose allows the reviewer to evaluate the paper from an appropriate perspective. The course and general topic categories you choose are used to select the reviewers who will evaluate your paper. To increase the likelihood that your paper will be given to a reviewer who is familiar with the content of your paper, choose one broad classification and at most three course-related and/or general topic areas that best fit your paper. <strong>Selection of more than four content categories may result in automatic rejection of your paper.</strong></li>
+?>. Be sure to choose the appropriate topic areas when submitting.  Your choices help in determining appropriate reviewers, and to assist the reviewer in evaluating the paper from an appropriate perspective.  </li>
  <li>Please do not wait until the last minute to submit your documents, because that is when everyone else will be connecting to our server!</li>
  <li>Make note of the paper ID number and password assigned to your submission. You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages so you may need to check your spam trap for the confirmation and later, acceptance or rejection notification.</li>
  <li> After receiving confirmation, go to the 
@@ -230,7 +219,8 @@ send an email to <script>write_email("sigcse2014-program", "ggc.edu");</script>.
 <div class="row-fluid">
  <div class="span12">
 
-<p>If you have questions about paper submissions, please contact SIGCSE <? echo $conferenceYear; ?> Program Chairs:<br/>
+<p>If you have questions about paper submissions, please contact SIGCSE <? echo $conferenceYear; ?> Program Chairs:<br/></p>
+<p>
 	Adrienne Decker<br/>
 	Rochester Institute of Technology<br/>
     &nbsp;<br/>
