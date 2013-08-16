@@ -226,6 +226,7 @@ send an email to <script>write_email("sigcse2014-program", "ggc.edu");</script>.
     &nbsp;<br/>
 	Kurt Eiselt<br/>
 	University of British Columbia<br/>
+    &nbsp;<br/>
 	<script>write_email( "sigcse2014-program", "ggc.edu" );</script></p>	
  </div>
 </div>
