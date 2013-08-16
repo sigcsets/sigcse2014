@@ -56,7 +56,7 @@
 </div>
 <div class="row-fluid">
  <div class="span12">
-<p>We invite papers falling into the following topic areas.</p>
+<p id="topicareas">We invite papers falling into the following topic areas.</p>
 <table class="table table-striped table-bordered">
  <tr>
   <td>Active Learning</td>
@@ -140,7 +140,10 @@
 </tr>
 <tr>
 <td>Web-Based Technology</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
+</table>
  </div>
 </div>
 
@@ -177,7 +180,7 @@
 } else {
  echo "<em>online paper submission form (coming soon)</em>";
 } 
-?>. Be sure to choose the appropriate topic areas when submitting.  Your choices help in determining appropriate reviewers, and to assist the reviewer in evaluating the paper from an appropriate perspective.  </li>
+?>. Be sure to choose the appropriate <a href="#topicareas">topic areas</a> when submitting.  Your choices help in determining appropriate reviewers, and to assist the reviewer in evaluating the paper from an appropriate perspective.  </li>
  <li>Please do not wait until the last minute to submit your documents, because that is when everyone else will be connecting to our server!</li>
  <li>Make note of the paper ID number and password assigned to your submission. You will receive an e-mail message confirmation. Spam filters sometimes trap these automatically generated messages so you may need to check your spam trap for the confirmation and later, acceptance or rejection notification.</li>
  <li> After receiving confirmation, go to the 
