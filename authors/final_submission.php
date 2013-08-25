@@ -276,7 +276,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    that you have completed all of the steps above.</strong>
 
                    <p style="font-size: 1.0em">
-                   Send email to the Publications Chair, Brad Miller <script language="javascript">write_email( "sigcse2014-publications", "ggc.edu" );</script>, with the subject line
+                   Send email to the Publications Chair, Dennis J. Bouvier <script language="javascript">write_email( "sigcse2014-publications", "ggc.edu" );</script>, with the subject line
                    &quot;<strong><i>type IDnumber name</i></strong>&quot;,
                    where
                    </p>
@@ -304,7 +304,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    </p>
 
                    <p style="font-size: 1.0em">
-                   This email will inform the Publications Chair, Brad Miller <script language="javascript">write_email( "sigcse2014-publications", "ggc.edu" );</script>,
+                   This email will inform the Publications Chair, Dennis J. Bouvier <script language="javascript">write_email( "sigcse2014-publications", "ggc.edu" );</script>,
                    that:
                    </p>
 
