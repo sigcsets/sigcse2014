@@ -25,7 +25,7 @@
 
     Kurt Eiselt<br/>
     University of British Columbia<br/>
-    <img src="../img/sigcse_logo_small.png" alt="Kurt Eiselt"  width="128" />
+    <img src="../img/CommitteeMembers/KurtEiselt.jpg" alt="Kurt Eiselt"  width="128" />
     &nbsp;</br>
     &nbsp;</br>
 
@@ -176,9 +176,14 @@
 
     <p><strong>Support/Exhibitor Liaison</strong><br/>
     <script>write_email("sigcse2014-exhibitors", "ggc.edu");</script></p>
-    Position opening<br/>
-    TBA<br/>
-    <img src="../img/sigcse_logo_small.png" alt="TBA" width="128" />
+    Prof. Susan Rodger<br/>
+    Duke University<br/>
+    <img src="../img/CommitteeMembers/SusanRodger.jpg" alt="TBA" width="128" />
+    &nbsp;</br>
+    &nbsp;</br> 
+    Tom Cortina<br/>
+    Carnegie Mellon<br/>
+    <img src="../img/CommitteeMembers/TomCortina.jpg" alt="TBA" width="128" />
     &nbsp;</br>
     &nbsp;</br> 
 
