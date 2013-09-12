@@ -3,14 +3,23 @@
  $onload = "pageLoad('reviewers', 'metareviews');";
  include("../parts/top.php");
 ?>
+
+<?php 
+  include("../parts/middle.php"); 
+?>
+
+<div class="SectionHeader"><div class="Full">
+
 <h1>The Meta-Review Process for Paper Submissions</h1>
 <p>SIGCSE strives for the best reviewing process that we can achieve. In
 order to assist the Program Chairs in dealing with the high volume of
 submissions that we receive, SIGCSE uses a meta-review process to help
 summarize the various reviews. The following description indicates how
 meta-reviews play into the various stages of the reviewing process.</p>
+</div>
 
 <div class="SectionHeader"><div class="Full">
+
 <h2>Stage 1: Reviewers</h2>
 </div></div>
 <p>At least four reviewers review each paper. Reviewers are drawn from the SIGCSE reviewer pool with preference for those whose expertise match the paper's topic areas.</p>

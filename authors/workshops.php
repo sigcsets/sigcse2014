@@ -144,12 +144,14 @@
 </div>
 <div class="row-fluid">
  <div class="span12">
-<p>If you have questions about workshop submissions, please contact the SIGCSE 2012 workshop chairs:<br/>
-	Susan Haller<br/>
+<p>If you have questions about workshop submissions, please contact the SIGCSE 2014 workshop chairs:</p>
+<br/>
+<p>	Susan Haller<br/>
     SUNY Potsdam<br/>
     &nbsp;</br/>
-    Sue Fitzgerald<br/>
-    Metropolitan State University <br/>
+    Paul Carter<br/>
+    University of British Columbia <br/>
+    </p>
     <script>write_email("sigcse2014-workshops", "ggc.edu");</script></p>
  </div>
 </div>

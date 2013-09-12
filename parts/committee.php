@@ -45,9 +45,9 @@
     &nbsp;</br>
     &nbsp;</br>
 
-    Position opening<br/>
-    TBA<br/>
-    <img src="../img/sigcse_logo_small.png" alt="TBA" width="128" />
+    Paul Carter<br/>
+    University of British Columbia<br/>
+    <img src="../img/CommitteeMembers/PaulCarter.jpg" alt="TBA" width="128" />
     &nbsp;</br>
     &nbsp;</br>
 
