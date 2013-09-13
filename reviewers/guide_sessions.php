@@ -34,26 +34,40 @@
 </div>
 <div class="row-fluid">
  <div class="span12">
-<p>The questions on the Special Session review form are quite general. The benefit of such a review form is that it allows you to write a wide range of comments that are appropriately tailored to the specific proposal.</p>
-<p>At the same time, many reviewers appreciate specific suggestions of issues to consider as they read proposals and write reviews.  Where appropriate, please try to address the following in your review:</p>
+<p>Some examples of information that should be relayed through the review process for special sessions:
 <ul>
- <li>Is the special session topic suitable for the symposium?</li>
- <li>Do you expect that the level of interest in the special session would be high?</li>
- <li>Are the particular presenters appropriate?  Does their expertise match the topic? (Remember that Special Session reviewing is not blind.)</li>
- <li> Does the proposal appropriately place the topic in the larger context of Computer Science education? Are the authors aware of a range of ideas on the topic? If appropriate, do the authors cite related work? (In evaluating this, please keep in mind that proposals are limited to two pages, so it is unreasonable to expect a detailed &quot;Related Work&quot; section or a long bibliography.)</li>
- <li> <strong><i>Very Important:</i></strong> Is the structure of the special session presentation reasonable?
- <ul>
-  <li>Do the authors describe the structure of the session at an appropriate level of detail?</li>
-  <li>Is it clear to you how the session will be run?</li>
-  <li> Is this truly a special session? (Is it a Panel in disguise?  Is there another format that would be more appropriate?)</li>
- </ul></li>
- <li> Is the proposal well-written?  Is it clear and well-organized?  Are there any technical errors?</li>
- <li> Do you have any suggestions for the authors ...
+<li>
+Summary of Submission:
   <ul>
-   <li> ... to improve the proposal itself (either for publication in the proceedings or for submission to a future symposium)?</li>
-   <li> ... to improve the quality of the presentation, if accepted?</li>
+  <li>Please summarize the submission in 2-4 sentences in your own words. Please DO NOT copy/paste the abstract into this section.</li>
   </ul>
- </li>
+</li>
+<li>Strengths of this Submission (Some sample questions to guide your responses in this section):
+    <ul>
+    <li>Is the special session topic suitable for the symposium?</li>
+    <li>Do you expect that the level of interest in the special session would be high?</li>
+    <li>Are the particular presenters appropriate? Does their expertise match the panel topic? (Remember that Special Session reviewing is not blind.)</li>
+    <li>Does the proposal appropriately place the topic in the larger context of Computer Science education? Are the authors aware of a range of ideas on the topic? If appropriate, do the authors cite related work? (In evaluating this, please keep in mind that proposals are limited to two pages, so it is unreasonable to expect a detailed "Related Work" section or a long bibliography.)</li>
+    <li>Very Important: Is the structure of the special session presentation reasonable? 
+      <ul>
+      <li>Do the authors describe the structure of the session at an appropriate level of detail?</li>
+      <li>Is it clear to you how the session will be run?</li>
+      <li>Is this truly a special session? (Is it a Panel in disguise? Is there another format that would be more appropriate?)</li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>Comments for Authors/Areas for Improvement: 
+  <ul>
+  <li>Is the proposal well-written? Is it clear and well-organized? Are there any technical errors?</li>
+  <li>Do you have any suggestions for the authors ... 
+    <ul>
+    <li>...to improve the proposal itself (either for publication in the proceedings or for submission to a future symposium)?</li>
+    <li>...to improve the quality of the presentation, if accepted?</li>
+    </ul>
+  </li>
+  </ul>
+</li>
 </ul>
 <p>Obviously this list is not exhaustive.  The Program Committee and authors will appreciate your views on other issues as well.</p>
  </div>
