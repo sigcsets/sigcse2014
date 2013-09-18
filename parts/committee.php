@@ -249,3 +249,22 @@
 <li><strong>Ming Zhang</strong>  Peking University, China    <script>write_email("mzhang","net.pku.edu.cn");</script></li>
 <li><strong>Michail Giannakos</strong>   Norwegian University of Science and Technology  <script>write_email("michail.giannakos","idi.ntnu.no");</script></li>
 </ul>
+
+
+ <div class="section" style="text-align: center;" id="international">
+   <h1>Associate Program Chairs</h1>
+ </div>
+
+<ul>
+<li><strong>Eric Aaron</strong>, Vassar College</li>
+<li><strong>Ruth Anderson</strong>, University of Washington</li>
+<li><strong>Don Blaheta</strong>, Longwood University</li>
+<li><strong>Stephen Edwards</strong>, Virginia Tech</li>
+<li><strong>Mary Anne Egan</strong>, Sienna College</li>
+<li><strong>Allison Elliott Tew</strong>, University of Washington Tacoma</li>
+<li><strong>Dave Levine</strong>, St. Bonaventure University</li>
+<li><strong>Sam Rebelsky</strong>, Grinnell College</li>
+<li><strong>Ellen Walker</strong>, Hiram College</li>
+<li><strong>Steve Wolfman</strong>, Univesity of British Columbia</li>
+</ul>
+
