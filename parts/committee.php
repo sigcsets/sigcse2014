@@ -250,6 +250,7 @@
 <li><strong>Michail Giannakos</strong>   Norwegian University of Science and Technology  <script>write_email("michail.giannakos","idi.ntnu.no");</script></li>
 </ul>
 
+<hr />
 
  <div class="section" style="text-align: center;" id="international">
    <h1>Associate Program Chairs</h1>
