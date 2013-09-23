@@ -26,7 +26,7 @@ $srcNotificationDeadline = "TBD";
 
 $reviewSiteReady = true;
 $reviewerRegistrationURL = "<a href=\"https://www.openconf.org/sigcse2014/track1/openconf.php\">reviewer registration form</a>";
-$reviewerURL = "<a href=\"https://www.openconf.org/sigcse2014/track1/review/signin.php?OPENCONF=00fe5t2qsg70rggd6fbvlbkvn0\">proposal review site</a>";
+$reviewerURL = "<a href=\"https://www.openconf.org/sigcse2014/track1/openconf.php\">proposal review site</a>";
 $reviewRegistrationDeadline = "August 23, 2013";
 
 $conferenceYear = "2014";
