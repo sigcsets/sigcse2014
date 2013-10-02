@@ -111,7 +111,8 @@ if (in_array($_SERVER['HTTP_HOST'], array("localhost")))
 			  <li class="dropdown <?php echo $clazz ?>">
 			    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Attendees <b class="caret"></b></a>
 				<ul class="dropdown-menu">
-                  <li><a href="<?php echo $prefix ?>/attendees/">General Information / Program</a></li>
+                  <li><a href="<?php echo $prefix ?>/attendees/index.php">General Information / Program</a></li>
+
 				</ul>
 			  </li>
 
