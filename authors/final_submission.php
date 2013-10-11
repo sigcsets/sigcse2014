@@ -31,15 +31,19 @@
  <div class="span12">
 <p>Verification deadline: <span class="label label-important"><? echo $mainUpdatesDeadline; ?></span></p>
 <ul>
- <li>Double-check the information about your submission that is recorded in the SIGCSE 2012 database. Some authors may make title changes based on reviewers' comments or instructions received from the Program Committee.  Please make modifications to the <strong>final</strong> title and author list <strong>immediately</strong> in the online database. <span class="label label-important">THIS MODIFICATION IS URGENT</span> -- the information is needed to prepare the Online Program.
- <p style="font-size: 1.0em">To check and/or update your Title and Author(s) listing in the SIGCSE database, use your submission ID number and password assigned to your submission by accessing the 
+ <li>Double-check the information about your submission that is recorded in the SIGCSE 2012 database. Some authors may make title changes based on reviewers' 
+ comments or instructions received from the Program Committee.  Please make modifications to the <strong>final</strong> title and author list 
+ <strong>immediately</strong> in the online database. <span class="label label-important">THIS MODIFICATION IS URGENT</span> -- the information 
+ is needed to prepare the Online Program.
+ <p style="font-size: 1.0em">To check and/or update your Title and Author(s) listing in the SIGCSE database, use your submission ID number and 
+ password assigned to your submission by accessing the 
 	<?php if ($submissionReady) {
 	 echo $verificationLink;
 	} else {
-	 echo "<em>author verification form (coming soon)</em>";
+	 echo "<em>author page</em>";
 	}
 	?>	
-	for Submitting Materials and Updating Proposer Information</a> and proceed to the section entitled <strong>Verify/Update Previously-Submitted Materials</strong>.</p>
+	for Submitting Materials and Updating Proposer Information</a> and proceed to the section entitled <strong>Edit Submission</strong>.</p>
  <p>Next:</p>
  <ul>
   <li>Select among panel, paper, special session or workshop</li>
@@ -70,7 +74,7 @@
                    <p style="font-size: 1.0em">
                    <strong>SIGCSE Guidelines</strong> -
                    Double-check that your submission adheres to the
-                   <a href="format.php">SIGCSE 2012 Format Instructions</a>
+                   <a href="format.php">SIGCSE 2014 Format Instructions</a>
                    and includes all required sections (i.e., Abstract,
                    Categories &amp; Subject Descriptors, General Terms,
                    and Keywords).  These are the same guidelines published
@@ -116,10 +120,11 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    <p>
                    <strong>Sheridan Publishing Guidelines</strong> -
-                   Your final submission must also conform to items
+                   Your final submission must also conform to the formatting rules on the publisher's page (TBA).
+                   <!--Your final submission must also conform to items
                    B through F of the Formatting Notes to All Authors
                    on the
-                   <a href="http://www.sheridanprinting.com/typedept/sigcse.htm">publisher's page</a>. 
+                   <a href="http://www.sheridanprinting.com/typedept/sigcse.htm">publisher's page</a>.--> 
                    </p>
 
                    </li>
@@ -134,16 +139,16 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    <p>
                    <strong>Papers</strong> -
-                   The
-                   <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#insertCopyright">publisher's web page for papers</a>
+                   The publisher's page (TBA)
+                   <!--<a href="http://www.sheridanprinting.com/typedept/sigcse.htm#insertCopyright">publisher's web page for papers</a>-->
                    provides instructions on how to add the appropriate
                    notice for papers.
                    </p>
 
                    <p>
                    <strong>Panels &amp; Special Sessions</strong> -
-                   The
-                   <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright">publisher's web page for panels and special sessions</a>
+                   The publisher's page (TBA)
+                   <!-- <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright">publisher's web page for panels and special sessions</a>-->
                    provides instructions on how to add the appropriate notice
                    for panels and special sessions.
                    </p>
@@ -203,7 +208,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    <?php if ($submissionReady) {
 				 echo $verificationLink;
 				} else {
-				 echo "<em>author verification form (coming soon)</em>";
+				 echo "<em>author page</em>";
 				}
 				?>.
                    </p>
@@ -236,8 +241,8 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    Submit two files (<tt style="font-size: 1.2em">.doc</tt> and <tt style="font-size: 1.2em">.pdf</tt>)
                    if using Microsoft Word, or three files
                    (<tt style="font-size: 1.2em">.tex</tt>, <tt style="font-size: 1.2em">.ps</tt>, and <tt style="font-size: 1.2em">.pdf</tt>)
-                   if using LaTeX to the publisher using the
-                   <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#submission">instructions on the publisher's website</a>.
+                   if using LaTeX to the publisher using the instructions on the publisher's website (TBA).
+                   <!-- <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#submission">instructions on the publisher's website</a>. -->
                    Note that the publisher's website will be activated
                    for uploading final submission files by November 12.
                    You should have received one or more
@@ -257,7 +262,9 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    <p style="font-size: 1.0em">
                    <strong>For papers:</strong>
-                   After submitting your document on the <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#C">publisher's website</a>, the publisher will send the contact author a confirmation message. After your paper has been processed, you will be emailed a link to an electronic ACM Copyright Form. Fill out and submit this form. <b>Note that no links to the copyright forms have gone out yet; the electronic copyright form is still being set up.</b>
+                   After submitting your document on the publisher's website (TBA), 
+                   <!--<a href="http://www.sheridanprinting.com/typedept/sigcse.htm#C">publisher's website</a>,-->
+                   the publisher will send the contact author a confirmation message. After your paper has been processed, you will be emailed a link to an electronic ACM Copyright Form. Fill out and submit this form. <b>Note that no links to the copyright forms have gone out yet; the electronic copyright form is still being set up.</b>
                    </p>
 
                    <p style="font-size: 1.0em">
@@ -267,8 +274,8 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    message with a link to an ACM Permission Form.
                    Print the form, fill it out, and fax the form
                    to the publisher. Fax instructions for panels
-                   and special sessions are available at the
-                   <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#C">publisher's web page for panels and special sessions</a>.
+                   and special sessions are available at the publisher's web page (TBA).
+                   <!--<a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#C">publisher's web page for panels and special sessions</a>.-->
                    </p>
                    </li>
 

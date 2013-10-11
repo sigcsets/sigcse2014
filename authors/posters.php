@@ -98,11 +98,11 @@
   <li><strong>Statement of Topic</strong>: A short title.</li>
   <li><strong>Significance and Relevance of the Topic</strong>: Please include information about any trends in relation to the topic and possibly describe (or cite) evidence to that effect.  Your objective here is to explain why the topic is significant. This information can help your proposal to be selected if resources become an issue.</li>
   <li><strong>Content</strong>: A description of the expected content of the poster.</li>
-  <li><strong>Abstract (Description)</strong>: The abstract is a short (<?php echo $abstractCharLimit; ?>, including whitespace) description of your poster.</li>
+  <li><strong>Abstract (Description)</strong>: The abstract is a short (<?php echo $abstractWordLimit; ?>) description of your poster.</li>
   </ol>
  </li><br/>
- <li><strong>Poster Abstract (limited to <?php echo $abstractCharLimit; ?>, including whitespace)</strong>
-  <p style="font-size: 1.0em">The abstract is the description of the poster that will appear on the conference web pages.  The description is limited to <?php echo $abstractCharLimit; ?> (including whitespace) and must match verbatim the abstract section of the Poster Proposal.  The poster abstract must be submitted in plain text. The abstract for an accepted proposal may contain a URL with more information. Abstracts of accepted posters can be edited in response to reviews. The revised, final abstract will appear on the web pages.</p>
+ <li><strong>Poster Abstract (limited to <?php echo $abstractWordLimit; ?> words) <!--(limited to <?php echo $abstractCharLimit; ?>, including whitespace)--></strong>
+  <p style="font-size: 1.0em">The abstract is the description of the poster that will appear on the conference web pages.  The description is limited to <?php echo $abstractWordLimit; ?> and must match verbatim the abstract section of the Poster Proposal.  The poster abstract must be submitted in plain text. The abstract for an accepted proposal may contain a URL with more information. Abstracts of accepted posters can be edited in response to reviews. The revised, final abstract will appear on the web pages.</p>
  </li>
 </ol>
  </div>
@@ -118,7 +118,7 @@
 <ol>
  <li>Write your proposal document using the format specified above.</li>
  <li> Convert your document into Adobe PDF format. Refer to our <a href="creating_pdf.php">Creating Adobe PDF Documents page</a> for assistance.</li>
- <li>Submit your document and <?php echo $abstractCharLimit; ?> (including whitespace) text abstract description using the
+ <li>Submit your document and <?php echo $abstractWordLimit; ?> text abstract description using the
 <?php if ($submissionReady) {
  echo $submissionLink;
 } else {

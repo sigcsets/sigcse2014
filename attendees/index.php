@@ -20,6 +20,16 @@
 <img src="../img/atlanta_skyline.png" alt="Hyatt Atlanta" width="500" style="display:block; margin-left:auto; margin-right:auto;"/>
 
 <div class="row-fluid">
+ <div class="span12" style="text-align: center" id="general"><h3 class="section">Conference Details</h3></div>
+</div>
+<div class="row-fluid">
+ <div class="span12">
+
+<p>
+Please check out our <a href="../assets/SIGCSE_2014_Draft Program.pdf">current program draft</a>.  Note that this is subject to revision as we draw closer to the event, so please check back for updates.
+</p>
+
+<div class="row-fluid">
  <div class="span12" style="text-align: center" id="general"><h3 class="section">Atlanta Details</h3></div>
 </div>
 <div class="row-fluid">

@@ -4,12 +4,13 @@
 $submissionReady = true;
 $submissionURL = "https://www.openconf.org/sigcse2014/";
 $submissionLink = "<a href=\"https://www.openconf.org/sigcse2014/\">online submission form</a>";
-$verificationLink = "<a href=\"https://www.openconf.org/sigcse2014/\">author verification page</a>";
+$verificationLink = "<a href=\"https://www.openconf.org/sigcse2014/\">author page</a>";
 $abstractCharLimit = "800 characters";
+$abstractWordLimit = "150 words";
 
 $mainSubmissionDeadline = "Friday, September 6, 2013";
 $mainNotificationDeadline = "Monday, October 14, 2013";
-$mainUpdatesDeadline = "Thursday, October 24, 2013";
+$mainUpdatesDeadline = "Monday, October 28, 2013";
 $mainCameraReadyDeadline = "TBD";
 
 $papersToReviewersDeadline = "Monday, September 9, 2013";
@@ -18,8 +19,8 @@ $reviewsDeadline = "Monday, September 23, 2013";
 $workshopUrlDeadline = "TBD";
 
 $bofAndPosterDeadline = "Monday, October 28, 2013";
-$bofAndPosterNotificationDeadline = "TBD";
-$bofAndPosterUpdatesDeadline = "TBD";
+$bofAndPosterNotificationDeadline = "Monday, November 18";
+$bofAndPosterUpdatesDeadline = "Monday, November 25";
 
 $srcSubmissionDeadline = "Sunday, September 29, 2013";
 $srcNotificationDeadline = "TBD";
