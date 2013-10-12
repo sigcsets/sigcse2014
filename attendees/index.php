@@ -26,7 +26,7 @@
  <div class="span12">
 
 <p>
-Please check out our <a href="../assets/SIGCSE_2014_Draft Program.pdf">current program draft</a>.  Note that this is subject to revision as we draw closer to the event, so please check back for updates.
+Please check out our <a href="../assets/SIGCSE_2014_Draft_Program.pdf">current program draft</a>.  Note that this is subject to revision as we draw closer to the event, so please check back for updates.
 </p>
 
 <div class="row-fluid">
