@@ -143,7 +143,7 @@
 </div>
 <div class="row-fluid">
  <div class="span12">
-<p>If you have questions about poster submissions, please contact SIGCSE <%= $conferenceYear %> poster chair:<br/>
+<p>If you have questions about poster submissions, please contact the SIGCSE <?php echo $conferenceYear; ?> poster chair:<br/>
 Michael T. Helmick<br/>
 University of Cincinnati<br/>
 <script>write_email("sigcse2014-posters", "ggc.edu");</script></p>
