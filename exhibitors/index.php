@@ -66,8 +66,9 @@
          <a href="http://www.microsoft.com/faculty"><img src="<?php echo $prefix ?>/img/mslogo.jpg" width="360"/></a>
          <h4>Gold Supporter</h4>
          <a href="http://www.abet.org/"><img src="<?php echo $prefix ?>/img/abetlogo.png" /></a>
-        <h4>Silver Supporter</h4>
-         <a href="http://www.oracle.com/index.html"><img src="<?php echo $prefix ?>/img/oracle_logo.gif" /></a>
+        <h4>Silver Supporters</h4>
+         <a href="http://www.oracle.com/index.html"><img src="<?php echo $prefix ?>/img/oracle_logo.gif" width="125"/></a>
+         <a href="http://github.com"><img src="<?php echo $prefix ?>/img/GitHub_Logo.png" width="100"/></a>
 
         </div>
     </div>
@@ -83,14 +84,20 @@
       <li>ABET</li>
       <li>Broadening Participation in Computing</li>
       <li>Cengage Learning</li>
+      <li>Clemson University/School of Computing</li>
+      <li>Consortium for Computing Science in Colleges</li>
       <li>Franklin, Beedle & Associate</li>
+      <li>GitHub</li>
       <li>InterSystems Corporation</li>
-      <li>Jones & Bartlett Learning</li>
+      <li>IIE/Council for International Exchange of Scholars</li>
       </ul>      
       </td>
       <td align="left" valign="top">
       <ul>
+      <li>Jones &amp; Bartlett Learning</li>
       <li>Kent State University/ School of Digital Sciences</li>
+      <li>Lego Education</li>
+      <li>Microsoft</li>
       <li>NSF</li>
       <li>Oracle Corporation</li>
       <li>Pearson</li>
