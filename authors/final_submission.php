@@ -120,7 +120,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    <p>
                    <strong>Sheridan Publishing Guidelines</strong> -
-                   Your final submission must also conform to the formatting rules on the publisher's page (TBA).
+                   Your final submission must also conform to the formatting rules on the <a href="http://www.sheridanprinting.com/typedept/sigcse.htm">publisher's page</a>.
                    <!--Your final submission must also conform to items
                    B through F of the Formatting Notes to All Authors
                    on the
@@ -139,16 +139,14 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    <p>
                    <strong>Papers</strong> -
-                   The publisher's page (TBA)
-                   <!--<a href="http://www.sheridanprinting.com/typedept/sigcse.htm#insertCopyright">publisher's web page for papers</a>-->
+                   The publisher's page <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#insertCopyright">publisher's web page for papers</a>
                    provides instructions on how to add the appropriate
                    notice for papers.
                    </p>
 
                    <p>
                    <strong>Panels &amp; Special Sessions</strong> -
-                   The publisher's page (TBA)
-                   <!-- <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright">publisher's web page for panels and special sessions</a>-->
+                   The publisher's page <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#insertCopyright">publisher's web page for panels and special sessions</a>
                    provides instructions on how to add the appropriate notice
                    for panels and special sessions.
                    </p>
@@ -241,8 +239,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    Submit two files (<tt style="font-size: 1.2em">.doc</tt> and <tt style="font-size: 1.2em">.pdf</tt>)
                    if using Microsoft Word, or three files
                    (<tt style="font-size: 1.2em">.tex</tt>, <tt style="font-size: 1.2em">.ps</tt>, and <tt style="font-size: 1.2em">.pdf</tt>)
-                   if using LaTeX to the publisher using the instructions on the publisher's website (TBA).
-                   <!-- <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#submission">instructions on the publisher's website</a>. -->
+                   if using LaTeX to the publisher using the instructions on the publisher's website <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#submission">instructions on the publisher's website</a>. 
                    Note that the publisher's website will be activated
                    for uploading final submission files by November 12.
                    You should have received one or more
@@ -262,8 +259,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
 
                    <p style="font-size: 1.0em">
                    <strong>For papers:</strong>
-                   After submitting your document on the publisher's website (TBA), 
-                   <!--<a href="http://www.sheridanprinting.com/typedept/sigcse.htm#C">publisher's website</a>,-->
+                   After submitting your document on the publisher's website <a href="http://www.sheridanprinting.com/typedept/sigcse.htm#C">publisher's website</a>,
                    the publisher will send the contact author a confirmation message. After your paper has been processed, you will be emailed a link to an electronic ACM Copyright Form. Fill out and submit this form. <b>Note that no links to the copyright forms have gone out yet; the electronic copyright form is still being set up.</b>
                    </p>
 
@@ -274,8 +270,7 @@ Poker-Edge.Com. 2006. Stats and Analysis. Retrieved June 7, 2006 from http://www
                    message with a link to an ACM Permission Form.
                    Print the form, fill it out, and fax the form
                    to the publisher. Fax instructions for panels
-                   and special sessions are available at the publisher's web page (TBA).
-                   <!--<a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#C">publisher's web page for panels and special sessions</a>.-->
+                   and special sessions are available at the publisher's web page <a href="http://www.sheridanprinting.com/typedept/sigcse2.htm#C">publisher's web page for panels and special sessions</a>.
                    </p>
                    </li>
 
