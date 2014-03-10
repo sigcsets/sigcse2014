@@ -4208,7 +4208,7 @@ a.thumbnail:focus {
   padding: 8px 35px 8px 14px;
   margin-bottom: 20px;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-  background-color: #fcf8e3;
+  background-color: #555555;
   border: 1px solid #fbeed5;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -4232,6 +4232,12 @@ a.thumbnail:focus {
   border-color: #d6e9c6;
   color: #468847;
 }
+.alert-success-less-urgent {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #468847;
+}
+
 .alert-success h4 {
   color: #468847;
 }
